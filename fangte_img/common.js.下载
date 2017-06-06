@@ -1,0 +1,194 @@
+﻿$(function () {
+    //主题演艺
+    $(".art-c2list .art-c2lbox").mouseover(function () {
+        var index0 = $(this).index();
+        //alert(index0);
+        $(".art-c2list .art-c2ltag1:eq(" + index0 + ")").fadeIn();
+        $(this).addClass("noshadow").siblings().removeClass("noshadow");
+        $(this).siblings(".art-c2lbox").find(".art-c2ltag1").fadeOut();
+        $(".art-c2con .art-c2cimg:eq(" + index0 + ")").fadeIn().siblings(".art-c2cimg").fadeOut();
+    });
+
+    $(".art_pre").click(function () {
+        $('.art-c2list').animate({
+            marginLeft: 0
+        }, 500)
+    });
+    $(".art_next").click(function () {
+        $('.art-c2list').animate({
+            marginLeft: -312
+        }, 500)
+    });
+    //熊出没系列
+    var xindx;
+    $('.x1_t').click(function () {        
+        xindx = $(this).attr("id");
+        if (xindx != undefined && null != xindx) {
+            $(this).addClass('xt1_cur').siblings().removeClass('xt1_cur');
+            $('.x3').hide().css('opacity', '0');
+            var xindxObj = $('.' + xindx + '_h');
+            if (xindxObj != undefined && null != xindxObj) {
+                $('.' + xindx + '_h').show().animate({ opacity: 1 }, 1000);
+            }
+        }
+    })
+
+    //搜索
+    $('.ss_btn').click(function () {
+        location.href = "search";
+    })
+
+    //企业荣耀
+    var lindex;
+    $('.featureUL li').click(function () {
+        lindex = $(this).index() + 1;
+        $(this).addClass('featureUL_cur').siblings().removeClass('featureUL_cur');
+        $('.hon').hide().animate({opacity:0}, 200);
+        $('.h_'+lindex).show().animate({opacity: 1 }, 500);
+    })
+
+    //社会招聘
+    var fcur;
+    $('.socialrec_2_p span').toggle(
+        function () {
+            $(this).parent().addClass('socialrec_2_pc');
+        },
+        function () {
+            $(this).parent().removeClass('socialrec_2_pc');
+        }
+    );
+    $('.campusrec_1_f').click(function () {
+        $(this).addClass('fcur').siblings().removeClass('fcur');
+        fcur = $(this).attr("id");
+        $('.campusrec_2').hide().css('opacity', '0');
+        $('.campusrec_' + fcur).show();
+        $('.campusrec_' + fcur).animate({ opacity: 1}, 500);
+    });
+    $('.campusrec_f3_t_1 span').click(function () {
+        $(this).addClass('t_cur').siblings().removeClass('t_cur');
+    });
+    $('.socialrec_2_p a').click(function () {
+        $(this).addClass('aclick').siblings().removeClass('aclick');
+    })
+
+    //招聘详情页
+    //$('.rec_resume').click(function () {
+    //    $('.rec_login').css('height', '310px').css('top','-30%');
+    //    $('.rec_register').css('height', '500px').css('top', '50%');
+    //    $('.zz').show();
+    //    $('.rec_login').show();
+    //    $('.zz').animate({
+    //        opacity: 0.5
+    //    }, 500);
+    //    $('.rec_login').animate({
+    //        top: "55%",
+    //    }, 500, function () {
+    //        $('.rec_login').animate({
+    //            top: "50%",
+    //        }, 300)
+    //    });
+    //});
+    $('.rec_login_x').click(function () {
+        $('.rec_login').css('height', '310px');
+        $('.rec_register').css('height', '500px');
+        $('.rec_login').animate({
+            top: "55%"
+        }, 500, function () {
+            $('.zz').animate({
+                opacity: 0
+            }, 300);
+            $('.rec_login').animate({
+                top: "-30%"
+            }, 300, function () {
+                $('.rec_login').hide();
+                $('.zz').hide();
+            })
+        });
+    });
+    $('.rec_login_register').click(function () {
+        $('.zz').show();
+        $('.rec_register').css('height', '0').show();
+        $('.rec_login').animate({
+            height: 0
+        }, 500, function () {
+            $('.rec_register').animate({
+                height: 500
+            }, 800);
+            $('.rec_login').css('height', '310px').css('top','-30%');
+        });
+    });
+    $('.rec_register_x').click(function () {
+        $('.rec_register').animate({
+            top: "55%"
+        }, 500, function () {
+            $('.zz').animate({
+                opacity: 0
+            }, 300);
+            $('.rec_register').animate({
+                top: "-30%"
+            }, 300, function () {
+                $('.rec_register').hide();
+                $('.zz').hide();
+            })
+        });
+    });
+
+    $('.rec_delivery_sub').click(function () {
+        $('.zz').show();
+        $('.rec_success').show();
+        $('.zz').animate({
+            opacity: 0.5
+        }, 500);
+        $('.rec_success').animate({
+            top: "55%"
+        }, 500, function () {
+            $('.rec_success').animate({
+                top: "50%"
+            }, 300)
+        });
+    });
+
+    //加入我们 左侧菜单
+    $('.j_menu_1').click(function () {
+        $('.j_menu_2').next('.j_menu_div2').animate({
+            height: 0
+        }, 500);
+        if ($(this).next('.j_menu_div2').height() == 100) {
+            $(this).next('.j_menu_div2').animate({
+                height: 0
+            }, 500);
+        }
+        else {
+            $(this).next('.j_menu_div2').animate({
+                height: 100
+            }, 500);
+        }
+        
+    });
+    $('.j_menu_2').click(function () {
+        $('.j_menu_1').next('.j_menu_div2').animate({
+            height: 0
+        }, 500);
+        if ($(this).next('.j_menu_div2').height() == 150) {
+            $(this).next('.j_menu_div2').animate({
+                height: 0
+            }, 500);
+        }
+        else {
+            $(this).next('.j_menu_div2').animate({
+                height: 150
+            }, 500);
+        }
+
+    });
+})
+
+function alert_show(i)
+{
+    $('.' + i).show().animate({
+        top: "50%"
+    }, 500);
+    $('.zz').stop().show().animate({
+        opacity: 0.5
+    }, 500);
+}

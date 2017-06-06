@@ -1,0 +1,1543 @@
+﻿.clear { clear: both; }
+img { border: 0; display: block; }
+a { color: inherit; text-decoration: none; cursor: pointer; }
+    a:hover { text-decoration: none; }
+body { font-family: 'Microsoft YaHei'; font-size: 12px; color: #000; margin: 0 auto; padding: 0; max-width: 1920px; min-width: 1280px; overflow-x: hidden; }
+ul, li { list-style: none; padding: 0; margin: 0; }
+button { padding: 0; border: 0; }
+h1, h2, h3, h4, h5, h6, p { margin: 0; padding: 0; }
+p { margin: 0; padding: 0; text-indent: 2em; }
+.div1280 { width: 1280px; height: 100%; margin: 0 auto; position: relative; }
+.marginleft40 { margin-left: 40px; }
+.marginBottom70 { margin-bottom: 70px; }
+.margin50auto { margin: 50px auto; }
+.color2c79d0 { color: #2c79d0; }
+strong { font-weight: bold; }
+legend { background-color: #fff; }
+
+.zz { position: fixed; width: 100%; height: 100%; background-color: #000; opacity: 0.6; filter: alpha(opacity=60); top: 0; left: 0; z-index: 999; display: none; }
+.return_top {display:none; opacity:0.6;filter:alpha(opacity=60); width:60px; height:75px;text-align:center;font-size:14px;position:fixed;bottom:160px; left:50%; margin-left:650px;z-index:998;color:#15499a;cursor:pointer;}
+    .return_top .r_top { width:50px; height:40px;background-color:#fff;overflow:hidden;border:1px solid #426bac;margin:0 auto 10px;padding-top:10px;border-radius:50%;transition:.5s;-webkit-transition:.5s;-o-transition:.5s;-moz-transition:.5s;}
+.r_img { margin:0 auto;transition:.5s;-webkit-transition:.5s;-o-transition:.5s;-moz-transition:.5s;}
+.r_img_h { display:none;margin:0 auto;}
+.return_top:hover .r_top { background-color:#426bac;}
+.return_top:hover .r_img { display:none;}
+.return_top:hover .r_img_h { display:block;animation:r_img_h 1s ease-in-out forwards;-webkit-animation:r_img_h 1s ease-in-out forwards;-o-animation:r_img_h 1s ease-in-out forwards;-moz-animation:r_img_h 1s ease-in-out forwards;}
+@keyframes r_img_h {
+    40% { margin-top:5px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-o-transform:rotateY(360deg);-moz-transform:rotateY(360deg);}
+    80% { margin-top:-70px;}
+    81% { margin-top:70px;}
+}
+@-webkit-keyframes r_img_h {
+    40% { margin-top:5px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-o-transform:rotateY(360deg);-moz-transform:rotateY(360deg);}
+    80% { margin-top:-70px;}
+    81% { margin-top:70px;}
+}
+@-o-keyframes r_img_h {
+    40% { margin-top:5px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-o-transform:rotateY(360deg);-moz-transform:rotateY(360deg);}
+    80% { margin-top:-70px;}
+    81% { margin-top:70px;}
+}
+@-moz-keyframes r_img_h {
+    40% { margin-top:5px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-o-transform:rotateY(360deg);-moz-transform:rotateY(360deg);}
+    80% { margin-top:-70px;}
+    81% { margin-top:70px;}
+}
+/*菜单*/
+.top { background: url(../images/fantawild2016/top_bg.jpg) repeat-x; width: 100%; height: 33px; min-width: 1280px;position:absolute; top:0; z-index:999;}
+.top1280 { width: 1280px; margin: 0 auto; height: 33px; position: relative; text-align: right; line-height: 33px; color: #93c9eb; }
+    .top1280 span { color: #fff; font-size: 14px; }
+    .top1280 a { color: #93c9eb; }
+        .top1280 a:hover { color: #fff; }
+.top2000 { width: 100%; height: 92px; border-bottom: 7px solid #fff; background-color: #f4f4f4; position: absolute; left: 0; top: 33px; opacity: 0.8; filter: alpha(opacity=80); z-index: 999; min-width: 1280px; }
+.topmenu { position: absolute; top: 33px; left: 0; height: 100px; width: 100%; z-index: 999; }
+.tp-banner-container { min-width: 1280px !important; }
+.d1000 { width: 1280px; margin: 0 auto; height: 99px; position: relative; }
+.logo { position: absolute; background: url(../images/fantawild2016/logobg.png) no-repeat; width: 203px; height: 169px; z-index: 999; top: -33px; }
+    .logo img { position: absolute; left: 50%; top: 50%; margin-left: -100px; margin-top: -85px; }
+.tmenu { position: absolute; right: 0; width: 870px; color: #333; }
+.tp-banner-container { overflow: hidden; z-index: 10; }
+#nav-div a { text-decoration: none; display: block; width: 100%; height: 100%; }
+#nav-div .navul { width: 100%; height: 99px; list-style: none; cursor: pointer; background: url(../images/fantawild2016/nav_on.png) no-repeat; }
+#nav-div { width: 900px; height: 99px; margin: auto; position: relative; }
+    #nav-div > ul > li { width: 145px; height: 92px; line-height: 99px; text-align: center; margin: auto; float: left; cursor: pointer; font-size: 16px; }
+        #nav-div > ul > li:hover { border-bottom: 7px solid #ffc500; background-color: #ffc500; }
+            #nav-div > ul > li:hover a { }
+.scoll_nav { width: 100%; position: fixed; top: 10px; z-index: 10000; }
+#nav .on a { }
+
+.ulxiala { z-index: 99999; display: none; }
+    .ulxiala li { font-size: 14px !important; background-color: #ffc500; height: 40px !important; line-height: 40px !important; }
+        .ulxiala li:hover { background-color: #e38a00 !important; color: #fff !important; }
+.main_0 { width: 100%; height: 658px; overflow: hidden; }
+.ul_menu_two { position:absolute;right:-100px;top:0;background-color:#ffc500;width:100px;}
+.ulxiala li:hover .ul_menu_two{ color: #000 !important; }
+.ul_menu_two li:hover { background-color:#eda73b !important; color: #fff !important;}
+
+.main_1 { width: 1180px; height: 261px; margin: 0 auto; margin-top: 55px; }
+.main_1_left { width: 575px; height: 261px; position: relative; cursor: pointer; float: left; background-color: #f6f6f6; }
+.main_1_left_img { width: 298px; height: 261px; overflow: hidden; }
+.main_1_left_img1 { transition: all .5s linear; }
+.main_1_left_title { position: absolute; right: 45px; top: 90px; width: 185px; height: 68px; background: url(../images/fantawild2016/main_1_bg.png) no-repeat 0px 0px; }
+.main_1_left_arrow { position: absolute; right: 115px; top: 180px; width: 45px; height: 45px; background: url(../images/fantawild2016/main_1_bg.png) no-repeat -30px -230px; }
+.main_1_left:hover { background-color: #24a9e6; }
+    .main_1_left:hover .main_1_left_img1 { transform: scale(1.06); -webkit-transform: scale(1.06); -o-transform: scale(1.06); -moz-transform: scale(1.06); }
+    .main_1_left:hover .main_1_left_title { background: url(../images/fantawild2016/main_1_bg.png) no-repeat 0px -120px; }
+    .main_1_left:hover .main_1_left_arrow { background: url(../images/fantawild2016/main_1_bg.png) no-repeat -120px -230px; animation: leftgo .8s ease-in-out infinite; -webkit-animation: leftgo .8s ease-in-out infinite; -o-animation: leftgo .8s ease-in-out infinite; -moz-animation: leftgo .8s ease-in-out infinite; }
+
+@keyframes leftgo {
+    0% { opacity: 0; filter: alpha(opacity=0); right: 80px; }
+    100% { opacity: 1; filter: alpha(opacity=100); right: 140px; }
+}
+
+.main_1_right { width: 575px; height: 261px; position: relative; cursor: pointer; float: right; background-color: #f6f6f6; }
+.main_1_right_title { position: absolute; right: 40px; top: 90px; width: 195px; height: 68px; background: url(../images/fantawild2016/main_1_bg.png) no-repeat -300px 0px; }
+.main_1_right_arrow { position: absolute; right: 115px; top: 180px; width: 45px; height: 45px; background: url(../images/fantawild2016/main_1_bg.png) no-repeat -430px -230px; }
+.main_1_right_img { width: 298px; height: 261px; overflow: hidden; }
+.main_1_right_img1 { transition: all .5s linear; -webkit-transition: all .5s linear; -o-transition: all .5s linear; -moz-transition: all .5s linear; }
+.main_1_right:hover { background-color: #ffa23e; }
+    .main_1_right:hover .main_1_right_img1 { transform: scale(1.06); -webkit-transform: scale(1.06); -o-transform: scale(1.06); -moz-transform: scale(1.06); }
+    .main_1_right:hover .main_1_right_title { background: url(../images/fantawild2016/main_1_bg.png) no-repeat -300px -120px; }
+    .main_1_right:hover .main_1_right_arrow { background: url(../images/fantawild2016/main_1_bg.png) no-repeat -360px -230px; animation: rightgo .8s ease-in-out infinite; -webkit-animation: rightgo .8s ease-in-out infinite; -moz-animation: rightgo .8s ease-in-out infinite; -o-animation: rightgo .8s ease-in-out infinite; }
+
+@keyframes rightgo {
+    0% { opacity: 0; filter: alpha(opacity=0); right: 140px; }
+    100% { opacity: 1; filter: alpha(opacity=100); right: 80px; }
+}
+
+.main_2_title { width: 100%; height: 66px; background: url(../images/fantawild2016/main_2_title.jpg) center no-repeat; margin: 78px 0 40px 0; max-width: 1903px; overflow-x: hidden; }
+.main_2 { width: 1270px; height: 460px; margin: 0 auto; min-width: 1280px; position: relative; }
+.m2_z { width: 175px; height: 135px; cursor: pointer;overflow:hidden; }
+    .m2_z p { line-height: 60px; font-size: 20px; text-align: center; text-indent: 0; font-weight: bold; color: #666; opacity: 0;position:absolute;z-index:10;left:50%; top:50%; margin-left:-90px;margin-top:-90px; filter: alpha(opacity=0);width:180px; height:180px; background-color: #fff; transition: .5s;-webkit-transition: .5s;-o-transition: .5s;-moz-transition: .5s; }
+    .m2_z .m2_zi { position:absolute;z-index:9;bottom:-50px; left:0;width:175px; height:40px; line-height:40px;text-align:center;color:#fff;transition: .5s;-webkit-transition: .5s;-o-transition: .5s;-moz-transition: .5s; }
+    .m2_z .m2_zz { position:absolute; width:175px;height:135px;top:0; left:0;opacity:0;transition: .5s;-webkit-transition: .5s;-o-transition: .5s;-moz-transition: .5s; }
+    .m2_z:hover p { opacity: 1; filter: alpha(opacity=100);width:66px; height:66px; border-radius:50%;margin-top:-33px; margin-left:-33px;line-height:66px;}
+    .m2_z:hover .m2_zi { bottom:0;}
+    .m2_z:hover .m2_zz { opacity:0.8;}
+.m2_z1 { position: absolute; top: 324px; right: 539px; }
+    .m2_z1 .m2_zz { background-color:#cf4c94;}
+.m2_z2 { position: absolute; top: 324px; right: 357px; }
+    .m2_z2 .m2_zz { background-color:#d8b430;}
+.m2_z3 { position: absolute; top: 324px; right: 179px; }
+    .m2_z3 .m2_zz { background-color:#09b5fb;}
+.m2_z4 { position: absolute; top: 324px; right: 0; }
+    .m2_z4 .m2_zz { background-color:#96cd34;}
+.main_2_left { width: 530px; height: auto; float: left; }
+    .main_2_left li { width: 100%; cursor: pointer; height: 68px; color: #999; overflow: hidden; margin-bottom: 16px; }
+    .main_2_left .date { text-align: center; background-color: #f8f8f8; width: 70px; height: 68px; color: #999; float: left; position: relative; }
+    .main_2_left span { display: block; width: 100%; height: 40px; background-color: #e4e4e4; line-height: 40px; font-size: 30px; font-weight: bold; margin-bottom: 5px; }
+.date b { display: block; width: 70px; height: 0; position: absolute; top: 40px; left: 0; background-color: #006ebd; color: #fff; line-height: 40px; font-size: 30px; transition: all 0.3s ease 0s; overflow: hidden; }
+.main_2_left .content { width: 430px; float: right; line-height: 17px; }
+.main_2_left h3 { overflow: hidden; color: #333; font-size: 16px; margin-bottom: 5px; height: 30px; line-height: 30px; }
+.main_2_left li:hover .date { color: #006ebd; }
+.main_2_left li:hover h3 { color: #006ebd; }
+.date span { display: inline-block; color: #999; -webkit-transition: -webkit-transform 0.3s ease 0s; transition: transform 0.3s ease 0s; -webkit-transform-origin: 50% 0px 0px; -ms-transform-origin: 50% 0px 0px; transform-origin: 50% 0px 0px; -webkit-transform-style: preserve-3d; -ms-transform-style: preserve-3d; transform-style: preserve-3d; }
+.main_2_left li:hover span { -webkit-transform: rotateX(90deg) translateY(-22px); -ms-transform: rotateX(90deg) translateY(-22px); transform: rotateX(90deg) translateY(-22px); }
+.main_2_left li:hover b { top: 0; height: 40px; transition: all 0.3s ease 0s; }
+.main_2 .more { margin-left: 90px; float: left; }
+    .main_2 .more:hover { opacity: 0.8; filter: alpha(opacity=80); }
+.main_2_right { float: right; }
+.main_2_zz1 { width: 354px; height: 458px; position: absolute; left: 560px; top: 0; background-color: #fff; }
+.main_2_zz2 { width: 354px; height: 458px; position: absolute; right: 0; top: 0; background-color: #fff; }
+
+.main_3 { width: 100%; height: 767px; position: relative; margin: 0 auto; max-width: 1903px; min-width: 1280px; overflow-x: hidden; }
+.main_3_1280 { width: 1280px; height: 678px; position: relative; margin: 0 auto; }
+.main_3_title { width: 124px; margin: 85px auto; }
+.main_3_left { position: absolute; top: 108px; left: 280px; z-index: 200; display: block; width: 816px; height: 433px; }
+.main_3_left_title { position: absolute; top: 216px; left: 115px; z-index: 300; opacity: 0; }
+.main_3_left_huanle { position: absolute; z-index: 20; }
+.main_3_left_menghuan { opacity: 0; position: absolute; z-index: 10; }
+.main_3_left_shenhua { opacity: 0; position: absolute; z-index: 10; }
+.main_3_left_shui { opacity: 0; position: absolute; z-index: 10; }
+.main_3_1 { display: block; width: 226px; height: 214px;overflow:hidden; cursor: pointer; position: absolute; z-index: 100; top: 108px; right: 632px;background:url(../images/fantawild2016/m3_1_img_h.png) no-repeat #fff4fa center; }
+    .main_3_1 .m3_zz { width:226px; height:214px; background:url(../images/fantawild2016/main_3_1.png) no-repeat #e6007f center;position:absolute;z-index:11;top:50%; left:50%; margin-top:-107px;margin-left:-113px;transition:.5s;-webkit-transition:.5s;-o-transition:.5s;-moz-transition:.5s;}
+.main_3_2 { display: block; width: 226px; height: 214px;overflow:hidden; cursor: pointer; position: absolute; z-index: 90; top: 108px; right: 632px; background: url(../images/fantawild2016/m3_2_img_h.png) no-repeat #fffbec center; }
+    .main_3_2 .m3_zz { width:226px; height:214px; background:url(../images/fantawild2016/main_3_2.png) no-repeat #fec800 center;position:absolute;z-index:11;top:50%; left:50%; margin-top:-107px;margin-left:-113px;transition:.8s;-webkit-transition:.8s;-o-transition:.8s;-moz-transition:.8s;}
+.main_3_3 { display: block; width: 226px; height: 214px;overflow:hidden; cursor: pointer; position: absolute; z-index: 100; top: 326px; right: 632px; background: url(../images/fantawild2016/m3_3_img_h.png) no-repeat #dcf4fd center; }
+    .main_3_3 .m3_zz { width:226px; height:214px; background:url(../images/fantawild2016/main_3_3.png) no-repeat #09b5fb center;position:absolute;z-index:11;top:50%; left:50%; margin-top:-107px;margin-left:-113px;transition:.8s;-webkit-transition:.8s;-o-transition:.8s;-moz-transition:.8s;}
+.main_3_4 { display: block; width: 226px; height: 214px;overflow:hidden; cursor: pointer; position: absolute; z-index: 90; top: 326px; right: 632px; background: url(../images/fantawild2016/m3_4_img_h.png) no-repeat #f2ffdc center; }
+    .main_3_4 .m3_zz { width:226px; height:214px; background:url(../images/fantawild2016/main_3_4.png) no-repeat #96cd34  center;position:absolute;z-index:11;top:50%; left:50%; margin-top:-107px;margin-left:-113px;transition:.8s;-webkit-transition:.8s;-o-transition:.8s;-moz-transition:.8s;}
+.main_3_1:hover .m3_zz { width:0; height:0;margin-left:0; margin-top:0; top:250px;left:250px;border-radius:50% 0 0 50%;}
+.main_3_2:hover .m3_zz { width:0; height:0;margin-left:0; margin-top:0; top:250px;left:-250px;border-radius:50% 50% 0 0;}
+.main_3_3:hover .m3_zz { width:0; height:0;margin-left:0; margin-top:0; top:-250px;left:250px;border-radius:0 0 50% 50%;}
+.main_3_4:hover .m3_zz { width:0; height:0;margin-left:0; margin-top:0; top:-250px;left:-250px;border-radius:0 50%  50% 0;}
+
+
+
+.main_3_bg { width: 1920px; height: 330px; position: absolute; z-index: 10; background-color: #f5f5f5; bottom: 0; left: 0; }
+.m3left_1 { width: 170px; height: 170px; position: absolute; left: -325px; top: 115px; background-color: #f9f2f6; z-index: 200; animation-duration: .8s; -webkit-animation-duration: .8s; animation-timing-function: ease-in-out; }
+.m3left_2 { width: 155px; height: 155px; position: absolute; left: -155px; top: -40px; background-color: #f5eed5; z-index: 200; animation-duration: .4s; -webkit-animation-duration: .4s; animation-timing-function: ease-in-out; }
+.m3left_3 { width: 50px; height: 50px; position: absolute; left: 0px; top: 58px; background-color: #f1edf6; z-index: 200; animation-duration: 1s; -webkit-animation-duration: 1s; animation-timing-function: ease-in-out; }
+.m3left_4 { width: 100px; height: 100px; position: absolute; left: -101px; top: 540px; background-color: #cee7ed; z-index: 200; animation-duration: 1s; -webkit-animation-duration: 1s; animation-timing-function: ease-in-out; }
+.m3mid_1 { width: 70px; height: 70px; position: absolute; left: 502px; top: -91px; background-color: #e4f1f7; z-index: 200; animation-duration: 1s; -webkit-animation-duration: 1s; animation-timing-function: ease-in-out; }
+.m3mid_2 { width: 45px; height: 45px; position: absolute; left: 784px; top: 63px; background-color: #f9f1f5; z-index: 200; animation-duration: 1s; -webkit-animation-duration: 1s; animation-timing-function: ease-in-out; }
+.m3mid_3 { width: 75px; height: 75px; position: absolute; right: -341px; bottom: 137px; background-color: #e6007f; z-index: 220; display: block; }
+.m3right_1 { width: 155px; height: 155px; position: absolute; right: -155px; top: 0; background-color: #d6e7fb; z-index: 200; animation-duration: 1s; -webkit-animation-duration: 1s; animation-timing-function: ease-in-out; }
+.m3right_2 { width: 200px; height: 200px; position: absolute; right: -355px; top: 155px; background-color: #f2f1e6; z-index: 200; animation-duration: .5s; -webkit-animation-duration: .5s; animation-timing-function: ease-in-out; }
+.m3right_3 { width: 65px; height: 65px; position: absolute; right: -70px; top: 257px; background-color: #eaf3d4; z-index: 200; animation-duration: 1.2s; -webkit-animation-duration: 1.2s; animation-timing-function: ease-in-out; }
+.m3right_4 { width: 65px; height: 65px; position: absolute; right: -191px; top: 490px; background-color: #e3daea; z-index: 200; animation-duration: 1s; -webkit-animation-duration: 1s; animation-timing-function: ease-in-out; }
+.m3right_5 { width: 132px; height: 132px; position: absolute; right: -126px; top: 545px; background-color: #f2edd7; z-index: 200; animation-duration: 1.5s; -webkit-animation-duration: 1.5s; animation-timing-function: ease-in-out; }
+.main_3_1280 div { display: none; }
+.larger1s { animation-name: larger; }
+
+@keyframes larger {
+    0% { transform: scale(0); -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); }
+}
+@-webkit-keyframes larger {
+    0% { transform: scale(0); -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); }
+}
+@-o-keyframes larger {
+    0% { transform: scale(0); -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); }
+}
+@-moz-keyframes larger {
+    0% { transform: scale(0); -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); }
+}
+
+.main_4 { width: 96%; height: 960px; position: relative; margin: 0 auto; max-width: 1920px; min-width: 1278px; border: 1px solid #e4e1e1; }
+.main_4_title { width: 316px; height: 76px; line-height: 76px; text-align: center; color: #fff; font-size: 26px; background-color: #ffad1d; position: absolute; z-index: 100; top: -52px; left: 50%; margin-left: -158px; }
+.main_4_line1 { width: 100%; height: 1px; background-color: #e4e1e1; position: absolute; top: 50%; z-index: 10; }
+.main_4_line2 { width: 1px; height: 100%; background-color: #e4e1e1; position: absolute; left: 50%; z-index: 10; }
+.main_4_bg { width: 163px; position: absolute; top: 50%; margin-left: -81px; left: 50%; margin-top: -81px; z-index: 20; }
+.main_4_1280 { width: 1280px; height: 960px; position: relative; margin: 0 auto; }
+.m4img1 { position: absolute; top: 50px; left: 230px; z-index: 50; }
+.m4img2 { position: absolute; top: 210px; left: 760px; z-index: 50; }
+.m4img3 { position: absolute; top: 465px; left: 130px; z-index: 50; }
+.m4img4 { position: absolute; top: 650px; left: 670px; z-index: 50; }
+.main_4 h2 { font-size: 22px; margin-bottom: 10px; }
+.main_4_c1 { opacity: 0; position: absolute; top: 310px; left: 0; z-index: 40; width: 420px; height: 160px; text-indent: 2em; font-size: 20px; margin-top: 10px; }
+.main_4_c2 { opacity: 0; position: absolute; top: 0px; left: 707px; z-index: 40; width: 446px; height: 160px; text-indent: 2em; font-size: 20px; margin-top: 10px; }
+.main_4_c3 { opacity: 0; position: absolute; top: 800px; left: 210px; z-index: 40; width: 420px; height: 160px; text-indent: 2em; font-size: 20px; margin-top: 10px; }
+.main_4_c4 { opacity: 0; position: absolute; top: 520px; left: 828px; z-index: 40; width: 420px; height: 160px; text-indent: 2em; font-size: 20px; margin-top: 10px; }
+.main_4_c1:hover { color: #cc6600; }
+.main_4_c2:hover { color: #cc6600; }
+.main_4_c3:hover { color: #cc6600; }
+.main_4_c4:hover { color: #cc6600; }
+
+.main_5 { width: 100%; height: 973px; position: relative; margin: 0 auto; max-width: 1920px; min-width: 1280px; margin-top: 60px; }
+.main_5_1 { width: 100%; height: 590px; background: url(../images/fantawild2016/main_5_bg.jpg) no-repeat center; overflow: hidden; position: relative; }
+.main_5_1280_1 { width: 1192px; height: 585px; position: relative; margin: 2px auto; overflow: hidden; }
+    .main_5_1280_1 img:hover { animation: scaleimg .5s ease-in; -webkit-animation: scaleimg .5s ease-in; -o-animation: scaleimg .5s ease-in; -moz-animation: scaleimg .5s ease-in; }
+
+@keyframes scaleimg {
+    60% { transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -webkit-transform: scale(1.1); z-index: 150; }
+    100% { transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); -webkit-transform: scale(1); z-index: 200; }
+}
+@-webkit-keyframes scaleimg {
+    60% { transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -webkit-transform: scale(1.1); z-index: 150; }
+    100% { transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); -webkit-transform: scale(1); z-index: 200; }
+}
+@-o-keyframes scaleimg {
+    60% { transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -webkit-transform: scale(1.1); z-index: 150; }
+    100% { transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); -webkit-transform: scale(1); z-index: 200; }
+}
+@-moz-keyframes scaleimg {
+    60% { transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -webkit-transform: scale(1.1); z-index: 150; }
+    100% { transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); -webkit-transform: scale(1); z-index: 200; }
+}
+
+.main_5_2 { width: 100%; height: 383px; position: relative; margin: 0 auto; max-width: 1920px; min-width: 1280px; }
+.main_5_1280_2 { width: 1280px; height: 383px; margin: 0 auto; position: relative; }
+.m5img1 { position: absolute; opacity: 0; z-index: 200; top: -82px; left: -200px; }
+.m5img2 { position: absolute; opacity: 0; z-index: 200; top: 452px; left: -146px; }
+.m5img3 { position: absolute; opacity: 0; z-index: 200; top: 522px; left: 180px; }
+.m5img4 { position: absolute; opacity: 0; z-index: 200; top: 892px; left: 216px; }
+.m5img5 { position: absolute; opacity: 0; z-index: 200; top: 322px; left: 1073px; }
+.m5img6 { position: absolute; opacity: 0; z-index: 200; top: 231px; left: 546px; }
+.m5img7 { position: absolute; opacity: 0; z-index: 200; top: -31px; left: 880px; }
+.m5img8 { position: absolute; opacity: 0; z-index: 200; top: 531px; left: 368px; }
+.m5img9 { position: absolute; opacity: 0; z-index: 200; top: 393px; left: 1100px; }
+.m5img10 { position: absolute; opacity: 0; z-index: 200; top: 393px; left: -80px; }
+.m5img11 { position: absolute; opacity: 0; z-index: 200; top: -93px; left: 916px; }
+.m5img12 { position: absolute; opacity: 0; z-index: 200; top: 693px; left: 1000px; }
+.m5img13 { position: absolute; opacity: 0; z-index: 200; top: 93px; left: 141px; }
+.m5img14 { position: absolute; opacity: 0; z-index: 200; top: 393px; left: -80px; }
+.m5img15 { position: absolute; opacity: 0; z-index: 200; top: -93px; left: 916px; }
+.m5img16 { position: absolute; opacity: 0; z-index: 200; top: 693px; left: 1000px; }
+.m5square1 { position: absolute; z-index: 100; opacity: 0.8; width: 100px; height: 100px; background-color: #d1abce; top: -10px; left: 600px; animation: m5sqaure1 30s linear infinite; -moz-animation: m5sqaure1 30s linear infinite; -webkit-animation: m5sqaure1 30s linear infinite; -o-animation: m5sqaure1 30s linear infinite; }
+.m5square2 { position: absolute; z-index: 100; opacity: 0.8; width: 130px; height: 130px; background-color: #a5a0cc; top: 640px; left: 300px; animation: m5sqaure2 24s linear infinite; -moz-animation: m5sqaure2 24s linear infinite; -webkit-animation: m5sqaure2 24s linear infinite; -o-animation: m5sqaure2 24s linear infinite; }
+.m5square3 { position: absolute; z-index: 100; opacity: 0.8; width: 90px; height: 90px; background-color: #ba8dbf; top: -40px; left: 0px; animation: m5sqaure3 44s linear infinite; -moz-animation: m5sqaure3 44s linear infinite; -webkit-animation: m5sqaure3 44s linear infinite; -o-animation: m5sqaure3 44s linear infinite; }
+.m5square4 { position: absolute; z-index: 100; opacity: 0.8; width: 50px; height: 50px; background-color: #5890ca; top: 700px; left: 100px; animation: m5sqaure4 24s linear infinite; -moz-animation: m5sqaure4 24s linear infinite; -webkit-animation: m5sqaure4 24s linear infinite; -o-animation: m5sqaure4 24s linear infinite; }
+.m5square5 { position: absolute; z-index: 100; opacity: 0.8; width: 60px; height: 60px; background-color: #8d88c3; top: -40px; right: 400px; animation: m5sqaure5 40s linear infinite; -moz-animation: m5sqaure5 40s linear infinite; -webkit-animation: m5sqaure5 40s linear infinite; -o-animation: m5sqaure5 40s linear infinite; }
+.m5square6 { position: absolute; z-index: 100; opacity: 0.8; width: 90px; height: 90px; background-color: #ae85c8; top: -40px; left: 300px; animation: m5sqaure6 24s linear infinite; -moz-animation: m5sqaure6 24s linear infinite; -webkit-animation: m5sqaure6 24s linear infinite; -o-animation: m5sqaure6 24s linear infinite; }
+.m5square7 { position: absolute; z-index: 100; opacity: 0.8; width: 110px; height: 110px; background-color: #8295c7; top: -140px; left: 120px; animation: m5sqaure7 30s linear infinite; -moz-animation: m5sqaure7 30s linear infinite; -webkit-animation: m5sqaure7 30s linear infinite; -o-animation: m5sqaure7 30s linear infinite; }
+.m5square8 { position: absolute; z-index: 100; opacity: 0.8; width: 80px; height: 80px; background-color: #bc8fc2; top: 640px; right: 100px; animation: m5sqaure8 24s linear infinite; -moz-animation: m5sqaure8 24s linear infinite; -webkit-animation: m5sqaure8 24s linear infinite; -o-animation: m5sqaure8 24s linear infinite; }
+.m5square9 { position: absolute; z-index: 100; opacity: 0.8; width: 30px; height: 30px; background-color: #69a7d3; top: -40px; right: 300px; animation: m5sqaure9 24s linear infinite; -moz-animation: m5sqaure9 24s linear infinite; -webkit-animation: m5sqaure9 24s linear infinite; -o-animation: m5sqaure9 24s linear infinite; }
+
+@keyframes m5sqaure1 {
+    40% { opacity: 1; top: 200px; left: -100px; }
+    100% { opacity: 1; top: 600px; left: 300px; }
+}
+
+@keyframes m5sqaure2 {
+    40% { opacity: 1; top: 200px; left: -200px; }
+    100% { opacity: 1; top: 0; left: 300px; }
+}
+
+@keyframes m5sqaure3 {
+    100% { opacity: 1; top: 600px; left: 1900px; }
+}
+
+@keyframes m5sqaure4 {
+    40% { opacity: 1; top: 20px; left: 1200px; }
+    100% { opacity: 1; top: 620px; left: 1900px; }
+}
+
+@keyframes m5sqaure5 {
+    40% { opacity: 1; top: 600px; right: -200px; }
+    100% { opacity: 1; top: 0; right: 300px; }
+}
+
+@keyframes m5sqaure6 {
+    60% { opacity: 1; top: 200px; left: 1900px; }
+    100% { opacity: 1; top: 600px; left: 1000px; }
+}
+
+@keyframes m5sqaure7 {
+    50% { opacity: 1; top: 500px; left: 800px; }
+    100% { opacity: 1; top: -110px; left: 70px; }
+}
+
+@keyframes m5sqaure8 {
+    40% { opacity: 1; top: 200px; right: 400px; }
+    100% { opacity: 1; top: 0; right: -100px; }
+}
+
+@keyframes m5sqaure9 {
+    60% { opacity: 1; top: 200px; right: -200px; }
+    100% { opacity: 1; top: 600px; right: 300px; }
+}
+
+
+.jionus { position: absolute; top: 75px; left: 50px; }
+.main_5_content { width: 562px; height: 135px; position: absolute; top: 140px; left: 50px; z-index: 100; text-indent: 2em; font-size: 14px; line-height: 25px; }
+.more_grey { position: absolute; top: 300px; left: 506px; z-index: 100; }
+    .more_grey:hover { opacity: 0.8; filter: alpha(opacity=80); }
+.m5img0 { position: absolute; top: 75px; right: 42px; z-index: 100; }
+.main_5_bg { background-color: #fafafa; width: 100%; height: 265px; position: absolute; bottom: 0; left: 0; z-index: 10; }
+
+.main_6 { width: 100%; height: 253px; position: relative; margin: 0 auto; max-width: 1920px; min-width: 1280px; background: url(../images/fantawild2016/main_6_border.jpg) no-repeat center bottom #f6f6f6; }
+.main_6_1280 { width: 1280px; height: 253px; position: relative; margin: 0 auto; }
+.link_logo { display: block; width: 184px; height: 64px; background: url(../images/fantawild2016/logo_bottom.png) no-repeat; position: absolute; left: 50px; top: 85px; }
+.main_6_content { width: 310px; position: absolute; top: 80px; left: 320px; font-size: 16px; line-height: 30px; background: url(../images/fantawild2016/main_6_content_bg.png) no-repeat 0px 5px; padding-left: 35px; }
+.weixin_huaqiang { width: 154px; text-align: center; position: absolute; top: 40px; right: 387px; color: #7a7a7a; font-size: 16px; line-height: 40px; }
+.weixin_leyou { width: 154px; text-align: center; position: absolute; top: 40px; right: 212px; color: #7a7a7a; font-size: 16px; line-height: 40px; }
+    .weixin_leyou img { width: 154px; }
+.weixin_xiongchumo { width: 154px; text-align: center; position: absolute; top: 40px; right: 42px; color: #7a7a7a; font-size: 16px; line-height: 40px; }
+    .weixin_xiongchumo img { height: 153px; }
+
+.bottm { background-color: #ededed; width: 100%; height: 100px; text-align: center; color: #797979; line-height: 30px; font-size: 14px; padding-top: 25px; }
+.bot_mid { width:1280px; margin:0 auto; position:relative;height:100px;}
+.bot_link { width:731px; float:left;margin-left:140px;}
+.bota1 { position:absolute;top:10px; right:134px;}
+    .bota1 img { width:65px;}
+.bota2 { position:absolute;top:10px; right:280px;}
+.bota3 { position:absolute;top:10px; right:225px;}
+.bota4 { position:absolute;top:10px; right:68px;}
+    .bota4 img { width:38px;}
+
+/*文化科技主题乐园*/
+.bg_park { width: 100%; height: 520px; background: url(../images/fantawild2016/bg_park.jpg) no-repeat top center; }
+.park_t { width: 459px; margin: 50px auto; }
+.park_1280 { width: 1280px; height: 100%; margin: 0 auto; position: relative; }
+.park_map { width: 1280px; margin: 0 auto; position: relative; height: 670px; background: url(../images/fantawild2016/map_park.jpg) no-repeat 20px 20px; }
+.park_map_t1 { position: absolute; top: 310px; left: 760px; font-size: 28px; font-weight: bold; }
+.park_map_t2 { position: absolute; top: 350px; left: 760px; font-size: 24px; }
+.park_map_line1 { position: absolute; width: 90px; height: 8px; background-color: #2383d9; top: 400px; left: 768px; }
+.park_map_line2 { position: absolute; width: 8px; height: 40px; background-color: #2383d9; top: 400px; left: 760px; }
+.park_map_line3 { position: absolute; width: 90px; height: 8px; background-color: #2383d9; top: 552px; left: 1090px; }
+.park_map_line4 { position: absolute; width: 8px; height: 40px; background-color: #2383d9; top: 520px; left: 1180px; }
+.park_in { position: absolute; width: 344px; height: 100px; line-height: 22px; color: #373535; top: 430px; left: 800px; display: none; opacity: 0; filter: alpha(opacity=0); font-size: 14px; }
+    .park_in h2 { color: #fd9b00; margin-bottom: 5px; }
+.p_pa_7 { display: block; opacity: 1; filter: alpha(opacity=100); }
+.park_dian { position: absolute; background: url(../images/fantawild2016/dian_y.png) no-repeat bottom center; width: 40px; height: 84px; text-align: center; cursor: pointer; overflow: hidden; opacity: 0; filter: alpha(opacity=0); }
+    .park_dian b { font-size: 14px; display: block; position: absolute; bottom: 110px; z-index: 10; left: 0; text-align: center; width: 40px; overflow: hidden; }
+    .park_dian img { position: absolute; width: 20px; height: 27px; position: absolute; bottom: -30px; left: 11px; z-index: 15; }
+    .park_dian div { width: 40px; height: 84px; background: url(../images/fantawild2016/pdian.png) no-repeat; background-position: 11px 42px; position: absolute; bottom: -84px; left: 0; z-index: 20; }
+
+.park_dian_cur div { opacity: 1; filter: alpha(opacity=100); background: url(../images/fantawild2016/pdian_h.png) no-repeat; background-position: 5px 30px; transition: .2s; -webkit-transition: .2s; -o-transition: .2s; -moz-transition: .2s; }
+.park_dian_cur b { font-size: 18px; color: #522b01; bottom: 58px !important; transition: .2s; -webkit-transition: .2s; -o-transition: .2s; -moz-transition: .2s; }
+#pa_1 { top: 140px; left: 615px; }
+#pa_2 { top: 185px; left: 550px; }
+#pa_3 { top: 248px; left: 545px; }
+#pa_4 { top: 236px; left: 577px; }
+#pa_5 { top: 216px; left: 606px; }
+#pa_6 { top: 290px; left: 515px; }
+#pa_7 { top: 322px; left: 567px; }
+#pa_8 { top: 388px; left: 496px; }
+#pa_9 { top: 410px; left: 590px; }
+#pa_10 { top: 170px; left: 285px; width: 70px !important; }
+    #pa_10 b { width: 70px !important; }
+    #pa_10 div { width: 70px !important; background: url(../images/fantawild2016/pdian.png) no-repeat 26px 40px; }
+.park_dian_cur .pa10 { background: url(../images/fantawild2016/pdian_h.png) no-repeat 20px 27px !important; }
+#pa_11 { top: 456px; left: 556px; }
+#pa_12 { top: 342px; left: 614px; }
+#pa_13 { top: 360px; left: 417px; }
+#pa_14 { top: 198px; left: 490px; }
+
+.park_2 { width: 100%; margin: 0 auto; height: 600px; background: url(../images/fantawild2016/park2_bg.jpg) no-repeat top center; }
+.p2_content { color: #fff; padding-top: 50px; font-size: 15px; width: 1120px; padding-left: 30px; line-height: 28px; }
+
+.park_3 { width: 100%; margin: 130px auto; height: 620px; background: url(../images/fantawild2016/park3_bg.jpg) no-repeat bottom center; }
+    .park_3 p { position: absolute; width: 418px; color: #735617; font-size: 16px; top: 285px; left: 197px; line-height: 25px; }
+.p3_link { display: block; border: 1px solid #e07222; border-radius: 10px; width: 150px; height: 38px; line-height: 38px; color: #e07222; font-size: 20px; text-align: center; position: absolute; top: 472px; left: 338px; }
+.p3_lunbo { width: 634px; height: 613px; position: absolute; right: 90px; top: 6px; overflow: hidden; z-index: 300; box-shadow: 5px 2px 7px #ebeaea; }
+.p3_wrap { position: relative; width: 680px; height: 615px; float: right; }
+    .p3_wrap .prev { display: block; position: absolute; text-indent: -9999px; background: url(../images/fantawild2016/p3_prev.png) no-repeat; width: 28px; height: 50px; bottom: 15px; left: 50px; }
+    .p3_wrap .next { display: block; position: absolute; text-indent: -9999px; background: url(../images/fantawild2016/p3_next.png) no-repeat; width: 28px; height: 50px; bottom: 15px; right: 545px; }
+    .p3_wrap .prev:hover { opacity: 0.8; filter: alpha(opacity=80); }
+    .p3_wrap .next:hover { opacity: 0.8; filter: alpha(opacity=80); }
+    .p3_wrap .rslides { position: relative; overflow: hidden; width: 518px; height: 615px; float: right; padding: 0; margin: 0; }
+        .p3_wrap .rslides li { -webkit-backface-visibility: hidden; position: absolute; display: none; width: 100%; left: 0; top: 0; }
+            .p3_wrap .rslides li:first-child { position: relative; display: block; float: left; }
+        .p3_wrap .rslides img { display: block; height: auto; float: left; width: 100%; border: 0; }
+.p3_zz { width: 633px; height: 475px; position: absolute; top: 146px; left: 39px; cursor: pointer; overflow: hidden; }
+    .p3_zz div { position: absolute; width: 100%; height: 100%; background-color: #fbe09c; opacity: 0; filter: alpha(opacity=0); z-index: 10; }
+    .p3_zz:hover div { opacity: 0.9; filter: alpha(opacity=90); transition: .5s; -webkit-transition: .5s; -o-transition: .5s; -moz-transition: .5s; }
+    .p3_zz:hover img { bottom: 200px; transition: .75s; -webkit-transition: .75s; -o-transition: .75s; -moz-transition: .75s; }
+    .p3_zz:hover a { top: 326px; transition: 1s; -webkit-transition: 1s; -o-transition: 1s; -moz-transition: 1s; }
+    .p3_zz img { position: absolute; width: 185px; left: 280px; bottom: -184px; z-index: 20; }
+    .p3_zz a { display: block; border: 1px solid #e07222; border-radius: 10px; width: 150px; height: 38px; line-height: 38px; color: #e07222; font-size: 20px; text-align: center; position: absolute; top: 526px; left: 300px; z-index: 20; }
+        .p3_zz a:hover { color: #fff; background-color: #e07222; transition: .3s; -webkit-transition: .3s; -o-transition: .3s; -moz-transition: .3s; }
+
+.park_4 { width: 100%; margin: 0 auto; height: 825px; background: url(../images/fantawild2016/park4_bg.jpg) no-repeat bottom center; }
+.p4_img1 { position: absolute; z-index: 400; right: 41px; top: 195px; }
+.park_4 p { position: absolute; width: 542px; color: #a339a1; font-size: 16px; top: 475px; left: 595px; line-height: 25px; }
+.p4_link { display: block; border: 1px solid #a339a1; border-radius: 10px; width: 150px; height: 38px; line-height: 38px; color: #a339a1; font-size: 20px; text-align: center; position: absolute; bottom: 153px; right: 313px; }
+.p4_lunbo { width: 477px; height: 595px; position: absolute; left: 41px; top: 125px; z-index: 300; box-shadow: 5px 5px 5px #ebeaea; }
+.p4_wrap { position: relative; width: 477px; height: 595px; float: left; }
+    .p4_wrap .prev { display: block; position: absolute; text-indent: -9999px; background: url(../images/fantawild2016/p4_prev.png) no-repeat; width: 40px; height: 50px; bottom: 15px; left: 1100px; }
+    .p4_wrap .next { display: block; position: absolute; text-indent: -9999px; background: url(../images/fantawild2016/p4_next.png) no-repeat right center; width: 40px; height: 50px; bottom: 15px; left: 1140px; }
+    .p4_wrap .prev:hover { opacity: 0.8; filter: alpha(opacity=80); }
+    .p4_wrap .next:hover { opacity: 0.8; filter: alpha(opacity=80); }
+    .p4_wrap .rslides { position: relative; overflow: hidden; width: 477px; height: 595px; float: right; padding: 0; margin: 0; }
+        .p4_wrap .rslides li { -webkit-backface-visibility: hidden; position: absolute; display: none; width: 100%; left: 0; top: 0; }
+            .p4_wrap .rslides li:first-child { position: relative; display: block; float: left; }
+        .p4_wrap .rslides img { display: block; height: auto; float: left; width: 100%; border: 0; }
+.p4_zz { width: 725px; height: 293px; position: absolute; bottom: 103px; left: 514px; cursor: pointer; overflow: hidden; }
+    .p4_zz div { position: absolute; width: 100%; height: 100%; background-color: #fff; opacity: 0; filter: alpha(opacity=0); z-index: 10; }
+    .p4_zz:hover div { opacity: 0.9; filter: alpha(opacity=90); transition: .5s; -webkit-transition: .5s; -o-transition: .5s; -moz-transition: .5s; }
+    .p4_zz:hover img { bottom: 110px; transition: .5s; -webkit-transition: .5s; -o-transition: .5s; -moz-transition: .5s; }
+    .p4_zz:hover a { bottom: 50px; transition: 1s; -webkit-transition: 1s; -o-transition: 1s; -moz-transition: 1s; }
+    .p4_zz img { position: absolute; left: 280px; bottom: 300px; z-index: 20; }
+    .p4_zz a { display: block; border: 1px solid #a339a1; border-radius: 10px; width: 150px; height: 38px; line-height: 38px; color: #a339a1; font-size: 20px; text-align: center; position: absolute; bottom: -76px; left: 300px; z-index: 20; }
+        .p4_zz a:hover { color: #fff; background-color: #a339a1; transition: .3s; -webkit-transition: .3s; -o-transition: .3s; -moz-transition: .3s; }
+
+.park_5 { width: 100%; margin: 0 auto; height: 877px; background: url(../images/fantawild2016/park5_bg.jpg) no-repeat top center; }
+    .park_5 p { position: absolute; width: 1060px; color: #e4ba00; font-size: 16px; bottom: 85px; left: 120px; line-height: 25px; }
+.p5_img1 { position: absolute; top: 132px; left: 414px; z-index: 400; }
+.p5_link { display: block; border: 1px solid #e4ba00; border-radius: 10px; width: 150px; height: 38px; line-height: 38px; color: #e4ba00; font-size: 20px; text-align: center; position: absolute; bottom: 40px; right: 44px; }
+.p5_lunbo { width: 1200px; height: 500px; position: absolute; left: 37px; top: 135px; z-index: 300; }
+.p5_wrap { position: relative; width: 1200px; height: 615px; float: left; }
+    .p5_wrap .prev { display: block; position: absolute; text-indent: -9999px; background: url(../images/fantawild2016/p4_prev.png) no-repeat; width: 40px; height: 50px; top: 15px; left: 620px; }
+    .p5_wrap .next { display: block; position: absolute; text-indent: -9999px; background: url(../images/fantawild2016/p4_next.png) no-repeat right center; width: 40px; height: 50px; top: 15px; left: 670px; }
+    .p5_wrap .prev:hover { opacity: 0.8; filter: alpha(opacity=80); }
+    .p5_wrap .next:hover { opacity: 0.8; filter: alpha(opacity=80); }
+    .p5_wrap .rslides { position: relative; overflow: hidden; width: 1200px; height: 615px; float: right; padding: 0; margin: 0; }
+        .p5_wrap .rslides li { -webkit-backface-visibility: hidden; position: absolute; display: none; width: 100%; left: 0; top: 0; }
+            .p5_wrap .rslides li:first-child { position: relative; display: block; float: left; }
+        .p5_wrap .rslides img { display: block; height: auto; float: left; border: 0; }
+.p5_zz { width: 1122px; height: 240px; position: absolute; bottom: 20px; left: 114px; cursor: pointer; overflow: hidden; z-index: 500; }
+    .p5_zz div { position: absolute; width: 100%; height: 100%; background-color: #faf2ee; opacity: 0; filter: alpha(opacity=0); z-index: 10; }
+    .p5_zz:hover div { opacity: 0.9; filter: alpha(opacity=90); transition: .5s; -webkit-transition: .5s; -o-transition: .5s; -moz-transition: .5s; }
+    .p5_zz img { position: absolute; left: 980px; bottom: 80px; z-index: 20; opacity: 0; filter: alpha(opacity=0); }
+    .p5_zz:hover img { opacity: 1; filter: alpha(opacity=100); transition: 2s; -webkit-transition: 2s; -o-transition: 2s; -moz-transition: 2s; }
+    .p5_zz a { display: block; border: 1px solid #e4ba00; border-radius: 10px; width: 150px; height: 38px; line-height: 38px; color: #e4ba00; font-size: 20px; text-align: center; position: absolute; bottom: -76px; right: 0; z-index: 20; }
+    .p5_zz:hover a { bottom: 20px; transition: 1s; -webkit-transition: 1s; -o-transition: 1s; -moz-transition: 1s; }
+    .p5_zz a:hover { color: #fff; background-color: #e4ba00; transition: .3s; -webkit-transition: .3s; -o-transition: .3s; -moz-transition: .3s; }
+
+.park_6 { width: 100%; margin: 0 auto; height: 748px; background: url(../images/fantawild2016/park6_bg.jpg) no-repeat bottom center #fff; }
+    .park_6 p { position: absolute; width: 425px; color: #225698; font-size: 16px; bottom: 168px; left: 715px; line-height: 25px; }
+.p6_link { display: block; border: 1px solid #225698; border-radius: 10px; width: 150px; height: 38px; line-height: 38px; color: #225698; font-size: 20px; text-align: center; position: absolute; bottom: 110px; right: 277px; }
+.p6_lunbo { width: 520px; height: 611px; position: absolute; left: 37px; top: 135px; z-index: 300; box-shadow: 5px 5px 5px #d6dde0; }
+.p6_wrap { position: relative; width: 1200px; height: 615px; float: left; }
+    .p6_wrap .prev { display: block; position: absolute; text-indent: -9999px; background: url(../images/fantawild2016/p4_prev.png) no-repeat; width: 40px; height: 50px; top: 15px; left: 620px; }
+    .p6_wrap .next { display: block; position: absolute; text-indent: -9999px; background: url(../images/fantawild2016/p4_next.png) no-repeat right center; width: 40px; height: 50px; top: 15px; left: 670px; }
+    .p6_wrap .prev:hover { opacity: 0.8; filter: alpha(opacity=80); }
+    .p6_wrap .next:hover { opacity: 0.8; filter: alpha(opacity=80); }
+    .p6_wrap .rslides { position: relative; overflow: hidden; width: 1200px; height: 615px; float: right; padding: 0; margin: 0; }
+        .p6_wrap .rslides li { -webkit-backface-visibility: hidden; position: absolute; display: none; width: 100%; left: 0; top: 0; }
+            .p6_wrap .rslides li:first-child { position: relative; display: block; float: left; }
+        .p6_wrap .rslides img { display: block; height: auto; float: left; border: 0; }
+.p6_zz { width: 690px; height: 477px; position: absolute; bottom: 0; right: 23px; cursor: pointer; overflow: hidden; z-index: 500; }
+    .p6_zz div { position: absolute; width: 100%; height: 100%; background-color: #f6fcff; opacity: 0; filter: alpha(opacity=0); z-index: 10; }
+    .p6_zz:hover div { opacity: 0.9; filter: alpha(opacity=90); transition: .5s; -webkit-transition: .5s; -o-transition: .5s; -moz-transition: .5s; }
+    .p6_zz img { position: absolute; left: 920px; bottom: 190px; z-index: 20; }
+    .p6_zz:hover img { left: 272px; /*transform:rotate(-720deg);-webkit-transform:rotate(-720deg);-o-transform:rotate(-720deg);-moz-transform:rotate(-720deg);*/ transition: 1s; -webkit-transition: 1s; -o-transition: 1s; -moz-transition: 1s; }
+    .p6_zz a { display: block; border: 1px solid #225698; border-radius: 10px; width: 150px; height: 38px; line-height: 38px; color: #225698; font-size: 20px; text-align: center; position: absolute; bottom: -76px; right: 254px; z-index: 20; }
+    .p6_zz:hover a { bottom: 110px; transition: 1s; -webkit-transition: 1s; -o-transition: 1s; -moz-transition: 1s; }
+    .p6_zz a:hover { color: #fff; background-color: #225698; transition: .3s; -webkit-transition: .3s; -o-transition: .3s; -moz-transition: .3s; }
+
+.park_7 { width: 100%; margin: 0 auto; height: 445px; background-color: #fffefc; padding-top: 100px; }
+.p7_t { margin: 0 auto; }
+.p7_logo { display: block; width: 170px; height: 200px; text-align: center; color: #565759; font-size: 20px; position: absolute; top: 100px; left: 200px; }
+    .p7_logo img { margin-top: 35px; }
+    .p7_logo:hover { color: #000; }
+        .p7_logo:hover img { opacity: 0.8; filter: alpha(opacity=80); }
+
+.p7_weixin { display: block; width: 175px; height: 230px; text-align: center; color: #565759; font-size: 20px; position: absolute; top: 100px; left: 567px; }
+    .p7_weixin img { margin: 0 auto; margin-top: 17px; }
+    .p7_weixin:hover { color: #000; }
+        .p7_weixin:hover img { opacity: 0.8; filter: alpha(opacity=80); }
+
+.p7_app { display: block; width: 175px; height: 230px; text-align: center; color: #565759; font-size: 20px; position: absolute; top: 100px; left: 880px; }
+    .p7_app img { margin: 0 auto; margin-top: 17px; }
+    .p7_app:hover { color: #000; }
+        .p7_app:hover img { opacity: 0.8; filter: alpha(opacity=80); }
+
+/*文化产品内容及服务*/
+.bg_culture { background: url(../images/fantawild2016/bg_culture.jpg) no-repeat top center; position: relative; width: 100%; height: 580px; }
+.culture_1 { width: 915px; float: left; padding-left: 70px; background: url(../images/fantawild2016/culture_1_bg.jpg) no-repeat bottom right; }
+.culture_1_c { font-size: 16px; color: #4a4a4a; text-indent: 2em; line-height: 28px; margin-top: 30px; width: 484px; }
+.culture_2 { width: 1280px; margin: 0 auto; height: 660px; position: relative; overflow: hidden; }
+.cl_a { width: 641px; height: 272px; position: absolute; overflow: hidden; }
+    .cl_a img { z-index: 20; position: absolute; top: 0; left: 0; }
+.clar { left: 306px !important; }
+.clar2 { left: 320px !important; }
+.cla1 .claimg { left: 0 !important; }
+.cla2 .claimg { left: 0 !important; }
+.cla3 .claimg { right: 0; }
+.cla4 .claimg { right: 0; }
+
+.cl_a:hover .claimg { transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); -moz-transform: scale(1.1); transition: 1s; -o-transition: 1s; -moz-transition: 1s; -webkit-transition: 1s; }
+.cl_a:hover .clar { }
+.cl_a:hover h4 { text-shadow: 3px 3px 5px #464646; font-size: 38px; }
+.cl_a:hover span { text-shadow: 1px 1px 5px #464646; }
+.pleft1 { left: 316px !important; }
+.pleft2 { left: 314px !important; }
+.pright { right: 0 !important; }
+.cla1 { position: absolute; top: 0; left: 0; }
+.cla2 { position: absolute; top: 0; left: 640px; }
+.cla3 { position: absolute; top: 272px; left: 0; }
+.cla4 { position: absolute; top: 272px; left: 640px; }
+
+.cl_zi1 { width: 320px; height: 272px; position: absolute; right: 0; bottom: 0; background-color: #54baf3; color: #fff; text-align: center; font-size: 22px; z-index: 100; }
+    .cl_zi1 h4 { font-size: 36px; margin: 100px 0 10px 0; }
+.cl_zi2 { width: 320px; height: 272px; position: absolute; right: 0; bottom: 0; background-color: #f0b065; color: #fff; text-align: center; font-size: 22px; z-index: 100; }
+    .cl_zi2 h4 { font-size: 36px; margin: 100px 0 10px 0; }
+.cl_zi3 { width: 320px; height: 272px; position: absolute; left: 0; bottom: 0; background-color: #9fd75c; color: #fff; text-align: center; font-size: 20px; z-index: 100; }
+    .cl_zi3 h4 { font-size: 36px; margin: 100px 0 10px 0; }
+.cl_zi4 { width: 320px; height: 272px; position: absolute; left: 0; bottom: 0; background-color: #aaa0e9; color: #fff; text-align: center; font-size: 22px; z-index: 100; }
+    .cl_zi4 h4 { font-size: 36px; margin: 100px 0 10px 0; }
+
+/*特种电影*/
+.bg_vr { background: url(../images/fantawild2016/bg_vr.jpg) no-repeat top center; position: relative; width: 100%; height: 580px; }
+.vr-word { width: 900px; color: #4d4d4d !important; font-size: 18px !important; line-height: 35px !important; }
+.vr_t { width: 378px; margin: 0 auto; }
+.vr_1 { width: 1280px; margin: 0 auto; height: 1150px; position: relative; }
+.vr_a { width: 400px; height: 400px; position: absolute; color: #fff; font-size: 18px; }
+    .vr_a div { width: 383px; height: 283px; margin: 8px auto; overflow: hidden; }
+    .vr_a h2 { font-size: 28px; color: #fff; text-indent: 8px; font-weight: normal; margin-bottom: 10px; }
+    .vr_a:hover img { transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); -moz-transform: scale(1.1); transition: 1s; -o-transition: 1s; -moz-transition: 1s; -webkit-transition: 1s; }
+.vra1 { background-color: #f8425c; top: 50px; left: 0; }
+.vra2 { background-color: #bc5ff7; top: 50px; left: 440px; }
+.vra3 { background-color: #f98749; top: 50px; left: 870px; }
+.vra4 { background-color: #ecc028; top: 500px; left: 0; }
+.vra5 { background-color: #2fbdf2; top: 500px; left: 440px; }
+.vra6 { background-color: #55c85d; top: 500px; left: 870px; }
+
+
+.vr_pro1 { width: 1280px; margin: 0 auto; }
+    .vr_pro1 h2 { color: #fd861e; width: 650px; height: 85px; line-height: 85px; margin: 0 auto; background: url(../images/fantawild2016/dashed-yellow.png) repeat-x bottom left; text-align: center; font-size: 35px; }
+    .vr_pro1 p { width: 1150px; margin: 50px auto; font-size: 16px; color: #474747; line-height: 28px; }
+.vr_pro2 { width: 100%; height: 1130px; background-color: #000; }
+.wrap { width: 1280px; margin: 0 auto; }
+
+/* sildes css begin */
+.control { width: 1280px; height: 1080px; background: #000; display: block; position: absolute; top: 0; left: 0; overflow: hidden; }
+.change li { width: 1280px; overflow: hidden; text-align: center; }
+    /* 图片垂直居中,不是很准确 */
+    .change li .imgWrap { display: table-cell; width: 1280px; height: 900px; vertical-align: middle; cursor: pointer; *font-size: 500px; }
+    .change li img { max-width: 1280px; max-height: 900px; width: expression(this.width > 900 && this.width > this.height ? 900 :true); height: expression(this.height >900 ? 900: true); vertical-align: middle; overflow: hidden; }
+    /* 描述部分 */
+    .change li .textDesc { width: 0; height: 0; position: absolute; left: 0; bottom: 0; overflow: hidden; display: none !important; }
+/* 翻页按钮 */
+.prev, .next { width: 49px; height: 49px; position: absolute; bottom: 480px; color: #FFF; font-size: 14px; z-index: 9; font-weight: bold; cursor: pointer; outline: none; display: none; }
+    .prev span, .next span { display: none; }
+.prev { left: 0; background: url(../images/fantawild2016/arrows_01.png) no-repeat; }
+.next { right: 0; background: url(../images/fantawild2016/arrows_02.png) no-repeat; }
+/* 分页 */
+.pageClass { text-align: center; z-index: 9; position: absolute; top: 50px; padding-top: 10px; }
+    .pageClass a { display: inline-block; width: 10px; height: 10px; margin: 0 3px; overflow: hidden; border: 1px solid #bebebe; background: #bebebe; border-radius: 5px; outline: none; }
+        .pageClass a span { display: none; }
+        .pageClass a:hover, .pageClass a.cur { border: 1px solid #be230a; background: #be230a; }
+/* 缩图部分 */
+.thumbWrap { width: 1180px; height: 150px; padding: 10px 50px; position: absolute; right: 0; bottom: 0; background: #000; overflow: hidden; }
+    .thumbWrap .thumbCont { width: 100%; height: 100%; position: relative; overflow: hidden; }
+    .thumbWrap ul { }
+        .thumbWrap ul li { width: 225px; height: 137px; padding: 0 10px; text-align: center; overflow: hidden; float: left; }
+            .thumbWrap ul li div { cursor: pointer; }
+            .thumbWrap ul li img { max-width: 215px; max-height: 135px; vertical-align: middle; overflow: hidden; margin: 0 auto; border: 1px solid #000; }
+            .thumbWrap ul li.cur img { border: 1px solid #2bb8fd !important; }
+/* 缩图按钮 */
+.thumbPrev, .thumbNext { width: 140px; height: 52px; text-align: center; position: absolute; color: #000; z-index: 9; outline: none; }
+    .thumbPrev span, .thumbNext span { display: none; }
+.thumbPrev { left: 0; top: 67px; background: url(../images/fantawild2016/Yprev.jpg) no-repeat; }
+.thumbNext { right: -105px; top: 67px; background: url(../images/fantawild2016/Ynext.jpg) no-repeat; }
+
+/*华强方特热讯*/
+.bg_newslit { width: 100%; height: 580px; background: url(../images/fantawild2016/bg_newslit.jpg) no-repeat top center; position: relative; }
+.ntitle { position: absolute; width: 1300px; height: 86px; background: url(../images/fantawild2016/ss_bg.png) no-repeat top left; bottom: 0; left: 50%; margin-left: -650px; line-height: 74px; color: #737171; font-size: 14px; }
+    .ntitle a { color: #737171; }
+.ss { position: absolute; width: 250px; height: 32px; right: 50px; top: 20px; }
+.ss_txt { width: 210px; height: 26px; background-color: #fff; float: left; border: 1px solid #e5e5e5; font-size: 14px; }
+.ss_btn { width: 34px; height: 32px; background: url(../images/fantawild2016/ss_btn.jpg) no-repeat; cursor: pointer; border: 0; float: left; }
+.newslist_1 { width: 1280px; height: 400px; margin: 40px auto; position: relative; font-size: 14px; }
+.newslist_1_hot { position: absolute; top: 0; left: 0; color: #fff; font-size: 18px; text-align: center; width: 100px; height: 55px; line-height: 55px; background-color: #aa2596; }
+.newslist_1_left { width: 592px; height: 400px; float: left; }
+.newslist_1_right { width: 650px; height: 400px; float: right; }
+    .newslist_1_right h1 { margin: 20px 0 5px 0; }
+.newslist_1_content { margin-top: 20px; width: 620px; overflow: hidden; height: 225px; line-height: 25px; text-indent: 2em; }
+.newslist_1_more { display: block; width: 240px; height: 56px; line-height: 56px; background-color: #aa2596; color: #fff; font-size: 18px; text-align: center; position: absolute; bottom: 0; right: 0; }
+.newslist_2 { width: 1280px; height: 140px; line-height: 60px; color: #3598db; margin: 0 auto; font-size: 18px; text-align: center; }
+    .newslist_2 a { display: block; width: 636px; height: 56px; background-color: #efefef; }
+.newslist_2_left { float: left; height: 80px; width: 636px; }
+.newslist_2_right { float: right; height: 80px; width: 636px; }
+.newslit_2_cur { background: url(../images/fantawild2016/jiantouxia.png) no-repeat center 54px; }
+    .newslit_2_cur a { color: #fff; background-color: #ffbc1d; }
+.newslist_ul { width: 1280px; margin: 0 auto; }
+    .newslist_ul li { width: 1280px; height: 206px; overflow: hidden; margin-bottom: 35px; }
+.newslist_li_left { width: 330px; height: 206px; float: left; overflow: hidden; background-color: #fbfbfb; }
+.newslist_ul img { transition: all .5s linear; width: 330px; }
+.newslist_li_right { width: 860px; float: left; margin-left: 30px; color: #666; font-size: 14px; }
+    .newslist_li_right h2 { height: 60px; line-height: 60px; border-bottom: 1px solid #d2d2d2; margin-bottom: 20px; font-weight: normal; overflow: hidden; }
+    .newslist_li_right div { margin: 28px 0 0 0; text-indent: 2em; height: 52px; overflow: hidden; line-height: 25px; }
+.newslist_ul li:hover { background-color: #fbfbfb; }
+    .newslist_ul li:hover h2 { color: #2981e4; border-bottom: 1px solid #c3e3f2 !important; }
+    .newslist_ul li:hover img { transform: scale(1.02); transform-origin: center; }
+
+/*新闻详情页*/
+.newsdetail_1 { width: 1280px; margin: 40px auto; position: relative; font-size: 14px; }
+    .newsdetail_1 h1 { width: 1180px; padding: 0 50px; text-align: center; margin-bottom: 20px; font-size: 22px; line-height: 35px; }
+.newsdetail_1_meta { text-align: center; width: 100%; margin-bottom: 30px; font-size: 12px; }
+.newsdetail_1_content { text-indent: 2em; line-height: 25px; width: 1000px; margin: 0 auto; color: #3e3e3e !important; }
+    .newsdetail_1_content img { border: 0; margin: 10px auto !important; }
+    .newsdetail_1_content p { text-indent: 0; line-height: 30px !important; font-size: 16px !important; font-family: 'Microsoft YaHei' !important; color: #3e3e3e !important; margin: 0 !important; }
+    .newsdetail_1_content span { font-family: 'Microsoft YaHei' !important; font-size: 16px !important; line-height: 30px !important; color: #3e3e3e !important; margin: 0 !important; }
+    .newsdetail_1_content strong > span { font-family: 'Microsoft YaHei' !important; font-size: 16px !important; font-weight: bold; color: #3e3e3e !important; margin: 0 !important; }
+    .newsdetail_1_content strong { font-family: 'Microsoft YaHei' !important; font-size: 16px !important; font-weight: bold; color: #3e3e3e !important; margin: 0 !important; }
+
+/*企业概览*/
+.overview_1 { width: 100%; height: 520px; }
+.overview_1280 { width: 1280px; margin: 0 auto; height: 100%; position: relative; }
+.o_1 { position: absolute; top: 20px; left: 75px; }
+.o_2 { position: absolute; top: 90px; left: 260px; }
+.o1_t { position: absolute; top: 50px; left: 636px; background: url(../images/fantawild2016/overview_t.jpg) no-repeat center; width: 410px; height: 82px; text-align: center; color: #959290; font-size: 16px; }
+    .o1_t h2 { font-size: 20px; color: #414541; font-weight: normal; margin: 20px 0 5px 0; }
+.o1_c { position: absolute; width: 636px; height: 235px; color: #6e6e6e; font-size: 16px; line-height: 26px; text-indent: 2em; top: 160px; left: 556px; }
+
+.overview_2 { width: 100%; height: 492px; background: url(../images/fantawild2016/overview_2_bg.jpg) no-repeat center; }
+.o2_t { width: 440px; height: 95px; position: absolute; background: url(../images/fantawild2016/o2_img1.png) no-repeat; text-indent: 65px; font-size: 16px; color: #959290; top: 105px; left: 106px; }
+    .o2_t p { text-indent: 64px; }
+    .o2_t h2 { color: #414541; font-size: 20px; font-weight: normal; margin-top: 2px; }
+.o2_c { text-indent: 2em; font-size: 16px; color: #6e6e6e; width: 580px; height: 200px; line-height: 26px; position: absolute; top: 190px; left: 106px; }
+.o2_img2 { position: absolute; top: 68px; left: 800px; }
+.o2_img2z { animation: o2_img2z 1s ease-in-out forwards; -moz-animation: o2_img2z 1s ease-in-out forwards; -webkit-animation: o2_img2z 1s ease-in-out forwards; -o-animation: o2_img2z 1s ease-in-out forwards; }
+
+@keyframes o2_img2z {
+    0% { transform: rotate(-180deg) scale(0); -webkit-transform: rotate(-180deg) scale(0); -o-transform: rotate(-180deg) scale(0); -moz-transform: rotate(-180deg) scale(0); }
+}
+
+.overview_3 { width: 100%; height: 1000px; }
+.o31wh100 { width: 100%; height: 100%; position: relative; display: block; cursor: pointer; overflow: hidden; }
+.o3logo { width: 0; height: 200px; background: url(../images/fantawild2016/o3logo.png) no-repeat center; position: absolute; top: 68px; left: 60px; border: 1px solid #c1c1c1; opacity: 0; filter: alpha(opacity=0); }
+
+.o3img1 { display: block; width: 457px; height: 388px; background: url(../images/fantawild2016/o3img1.jpg) no-repeat; position: absolute; top: 68px; left: 346px; opacity: 0; filter: alpha(opacity=0); }
+.o3img1_l { width: 100%; height: 100%; background: url(../images/fantawild2016/o3img1_h.png) no-repeat center; position: absolute; left: 0; top: 0%; opacity: 0; filter: alpha(opacity=0); }
+.o3img1_k { position: absolute; left: 4px; bottom: 8px; width: 60px; height: 60px; background-color: #e6007f; }
+.o3img1 img { position: absolute; left: 17px; bottom: 22px; }
+.o3img1:hover img { display: none; }
+.o3img1:hover .o3img1_k { width: 443px; height: 374px; opacity: 0.7; filter: alpha(opacity=70); transition: .5s; }
+.o3img1:hover .o3img1_l { opacity: 1; filter: alpha(opacity=100); transition: .5s; }
+
+.o3img2 { display: block; width: 376px; height: 305px; background: url(../images/fantawild2016/o3img2.jpg) no-repeat center; position: absolute; top: 68px; left: 820px; opacity: 0; filter: alpha(opacity=0); }
+    .o3img2 img { position: absolute; left: 17px; bottom: 22px; }
+.o3img2_l { width: 100%; height: 100%; background: url(../images/fantawild2016/o3img2_h.png) no-repeat center; position: absolute; left: 0; top: 0%; opacity: 0; filter: alpha(opacity=0); }
+.o3img2_k { position: absolute; left: 4px; bottom: 8px; width: 60px; height: 60px; background-color: #09b5fb; }
+.o3img2:hover img { display: none; }
+.o3img2:hover .o3img2_k { width: 364px; height: 293px; opacity: 0.7; filter: alpha(opacity=70); transition: .5s; }
+.o3img2:hover .o3img2_l { opacity: 1; filter: alpha(opacity=100); transition: .5s; }
+
+.o3img3 { display: block; width: 272px; height: 413px; background: url(../images/fantawild2016/o3img3.jpg) no-repeat center; position: absolute; top: 311px; left: 56px; opacity: 0; filter: alpha(opacity=0); }
+    .o3img3 img { position: absolute; left: 17px; bottom: 14px; }
+.o3img3_l { width: 100%; height: 100%; background: url(../images/fantawild2016/o3img3_h.png) no-repeat center; position: absolute; left: 0; top: 0%; opacity: 0; filter: alpha(opacity=0); }
+.o3img3_k { position: absolute; left: 4px; bottom: 0px; width: 60px; height: 60px; background-color: #fec800; }
+.o3img3:hover img { display: none; }
+.o3img3:hover .o3img3_k { width: 258px; height: 414px; opacity: 0.7; filter: alpha(opacity=70); transition: .5s; }
+.o3img3:hover .o3img3_l { opacity: 1; filter: alpha(opacity=100); transition: .5s; }
+
+.o3weixin { position: absolute; top: 470px; left: 346px; opacity: 0; filter: alpha(opacity=0); }
+.o3img4 { position: absolute; top: 469px; left: 630px; opacity: 0; filter: alpha(opacity=0); }
+
+.o3img5 { display: block; width: 376px; height: 328px; background: url(../images/fantawild2016/o3img5.jpg) no-repeat center; position: absolute; top: 396px; left: 821px; opacity: 0; filter: alpha(opacity=0); }
+    .o3img5 img { position: absolute; left: 17px; bottom: 16px; }
+.o3img5_l { width: 100%; height: 100%; background: url(../images/fantawild2016/o3img5_h.png) no-repeat center; position: absolute; left: 0; top: 0%; opacity: 0; filter: alpha(opacity=0); }
+.o3img5_k { position: absolute; left: 4px; bottom: 2px; width: 60px; height: 60px; background-color: #96cd34; }
+.o3img5:hover img { display: none; }
+.o3img5:hover .o3img5_k { width: 364px; height: 328px; opacity: 0.7; filter: alpha(opacity=70); transition: .5s; }
+.o3img5:hover .o3img5_l { opacity: 1; filter: alpha(opacity=100); transition: .5s; }
+.overview_3 p { position: absolute; bottom: 0; left: 60px; width: 1130px; font-size: 16px; color: #706f6f; line-height: 26px; opacity: 0; filter: alpha(opacity=0); }
+
+.overview_4 { width: 100%; height: 730px; background-color: #f5f2f2; padding-top: 30px; }
+.o4_t { margin: 0 auto; background: url(../images/fantawild2016/overview_t.png) no-repeat center; width: 410px; height: 82px; text-align: center; color: #959290; font-size: 16px; font-weight: normal; }
+    .o4_t h2 { font-size: 20px; color: #414541; font-weight: normal; margin: 14px 0 2px 0; }
+.overview_4 p { width: 1150px; margin: 0 auto; color: #8b8b8b; font-size: 16px; margin-top: 20px; text-indent: 2em; line-height: 26px; }
+.o4_img { display: block; width: 218px; height: 368px; color: #828282; text-indent: 2em; background-color: #fff; box-shadow: 5px 5px 5px #dddada; cursor: pointer; opacity: 0; filter: alpha(opacity=0); }
+    .o4_img span { display: block; width: 210px; margin: 0 auto; line-height: 18px; height: 54px; overflow: hidden; }
+.o4_it { display: block; text-indent: 20px; background: url(../images/fantawild2016/o4img0.png) no-repeat; background-position: 0 6px; color: #425040; font-size: 16px; height: 25px; line-height: 25px; margin: 5px 0 5px 10px; transition: .3s; -webkit-transition: .3s; -moz-transition: .3s; -o-transition: .3s; }
+.o4i1 { position: absolute; top: -50px; left: 30px; }
+.o4i2 { position: absolute; top: 30px; left: 260px; }
+.o4i3 { position: absolute; top: -50px; left: 490px; }
+.o4i4 { position: absolute; top: 30px; left: 720px; }
+.o4i5 { position: absolute; top: -50px; left: 950px; }
+.o4i1:hover { background-color: #fcf5ea; }
+.o4i2:hover { background-color: #f9fff7; }
+.o4i3:hover { background-color: #fef4fa; }
+.o4i4:hover { background-color: #fef2f6; }
+.o4i5:hover { background-color: #edf6fd; }
+.o4_img:hover .o4_it { background-position: 0 -17px; color: #ff7f04; }
+.o4transition { transition: .3s; -webkit-transition: .3s; -moz-transition: .3s; -o-transition: .3s; }
+.o4_more { position: absolute; bottom: 50px; right: 30px; color: #4395d9; font-size: 20px; }
+.overview_4 a:hover { color: #4de8fe; }
+
+.overview_5 { width: 100%; height: 700px; }
+.o5img1 { position: absolute; top: 60px; left: 10px; z-index: 10; }
+.o5img2 { position: absolute; top: 354px; left: 260px; z-index: 30; }
+.o5img3 { position: absolute; top: 265px; left: -110px; z-index: 50; opacity: 0; filter: alpha(opacity=0); }
+.o5img1zz { position: absolute; width: 406px; height: 230px; background-color: #000; top: 195px; left: 20px; z-index: 20; opacity: 1; display: none; }
+.o5img2zz { position: absolute; width: 234px; height: 148px; background-color: #000; top: 363px; left: 296px; z-index: 40; display: none; }
+.overview_5 p { position: absolute; top: 178px; right: 30px; font-size: 16px; width: 588px; color: #8b8b8b; line-height: 26px; text-indent: 2em; }
+.overview_5 a { position: absolute; bottom: 50px; right: 30px; color: #4395d9; font-size: 20px; }
+    .overview_5 a:hover { color: #4de8fe; }
+
+.overview_6 { width: 100%; height: 626px; background: url(../images/fantawild2016/overview_6_bg.jpg) no-repeat center; }
+.o6_t { width: 410px; height: 82px; color: #959290; font-size: 16px; position: absolute; right: 35px; top: 145px; opacity: 0; filter: alpha(opacity=0); }
+    .o6_t h2 { font-size: 20px; color: #414541; font-weight: normal; margin: 14px 0 2px 0; }
+.overview_6 p { position: absolute; width: 575px; font-size: 16px; color: #8b8b8b; top: 220px; right: -35px; text-indent: 2em; line-height: 26px; opacity: 0; filter: alpha(opacity=0); }
+.overview_6 a { position: absolute; bottom: 50px; right: 30px; color: #4395d9; font-size: 20px; }
+    .overview_6 a:hover { color: #4de8fe; }
+.o6img1 { position: absolute; top: 30px; left: 10px; opacity: 0; filter: alpha(opacity=0); }
+
+.overview_7 { width: 100%; height: 628px; background: url(../images/fantawild2016/overview_7_bg.jpg) no-repeat center; }
+.o7_t { width: 410px; height: 82px; color: #959290; font-size: 16px; position: absolute; left: 0; top: 145px; opacity: 0; filter: alpha(opacity=0); }
+    .o7_t h2 { font-size: 20px; color: #414541; font-weight: normal; margin: 14px 0 2px 0; }
+.overview_7 p { position: absolute; width: 575px; font-size: 16px; color: #8b8b8b; top: 220px; left: 35px; text-indent: 2em; line-height: 26px; opacity: 0; filter: alpha(opacity=0); }
+.overview_7 a { position: absolute; bottom: 50px; right: 30px; color: #4395d9; font-size: 20px; }
+    .overview_7 a:hover { color: #4de8fe; }
+
+.overview_8 { width: 100%; height: 295px; background-color: #fef9f1; }
+.o8logo { position: absolute; top: 70px; left: 20px; }
+.overview_8 p { position: absolute; top: 94px; right: 35px; color: #8b8b8b; font-size: 16px; width: 930px; line-height: 28px; text-indent: 2em; }
+
+/*品牌发行*/
+.is_1 { width: 100%; height: 612px; background: url(../images/is_1.jpg) no-repeat center; }
+.is_2 { width: 100%; height: 679px; background: url(../images/is_2.jpg) no-repeat center; }
+.is_3 { width: 100%; height: 1495px; background: url(../images/is_3.jpg) no-repeat center; }
+
+
+/*熊出没系列*/
+.bg_xcm { width: 100%; height: 580px; background: url(../images/fantawild2016/bg_xcm.jpg) no-repeat top center; position: relative; }
+.xcm_1 { background: url(../images/fantawild2016/xcm_t.jpg) no-repeat right top; position: relative; height: 350px !important; }
+.x1_t { display: block; z-index: 1; }
+    .x1_t p { width: 192px; height: 62px; margin: 0 auto; color: #fff; line-height: 62px; font-size: 24px; text-indent: 60px; margin-top: 20px; }
+    .x1_t:hover .x1_img { transform: rotateY(360deg); -webkit-transform: rotateY(360deg); -moz-transform: rotateY(360deg); -o-transform: rotateY(360deg); transition: 1s; -webkit-transition: 1s; -o-transition: 1s; -moz-transition: 1s; }
+.x1_j { position: absolute; top: 80px; left: 50%; margin-left: -23px; opacity: 0; filter: alpha(opacity=0); }
+.xt1_cur { height: 130px !important; transition: .5s; transition: .3s linear; -webkit-transition: .3s linear; -o-transition: .3s linear; -moz-transition: .3s linear; }
+    .xt1_cur .x1_j { opacity: 1; filter: alpha(opacity=100); transition: .75s; -webkit-transition: .75s; -o-transition: .75s; -moz-transition: .75s; }
+#x1_t1 { background-color: #f0eaf4; width: 225px; height: 105px; position: absolute; top: 220px; left: 315px; cursor: pointer; }
+    #x1_t1 .x1_img { position: absolute; left: 35px; top: 40px; }
+    #x1_t1 p { background-color: #aa2596; }
+#x1_t2 { background-color: #f9f0cd; width: 225px; height: 105px; position: absolute; top: 220px; left: 560px; cursor: pointer; }
+    #x1_t2 .x1_img { position: absolute; left: 35px; top: 40px; }
+    #x1_t2 p { background-color: #f7970b; }
+#x1_t3 { background-color: #dcecf4; width: 225px; height: 105px; position: absolute; top: 220px; left: 805px; cursor: pointer; }
+    #x1_t3 .x1_img { position: absolute; left: 35px; top: 40px; }
+    #x1_t3 p { background-color: #3091dc; }
+#x1_t4 { background-color: #e4f7ce; width: 225px; height: 105px; position: absolute; top: 220px; left: 1050px; cursor: pointer; }
+    #x1_t4 .x1_img { position: absolute; left: 35px; top: 40px; }
+    #x1_t4 p { background-color: #92c259; }
+
+.x3 { padding-bottom: 100px; }
+.x1_t1_h { width: 100%; }
+.x1_c1 { width: 1280px; margin: 70px auto; height: 1875px; position: relative; }
+.x1_title { width: 325px; height: 48px; background-color: #3091dc; color: #fff; line-height: 48px; }
+    .x1_title h2 { font-size: 22px; width: 294px; text-align: center; float: right; border-left: 16px solid #fff; }
+.x1_c1 a { display: block; width: 379px; height: 545px; overflow: hidden; border-bottom: 20px solid #fff; }
+.c1_img1 { position: absolute; top: 85px; left: 0; background: url(../images/fantawild2016/x1_img1.jpg) no-repeat top center; }
+.c1_img2 { position: absolute; top: 85px; left: 450px; background: url(../images/fantawild2016/x1_img2.jpg) no-repeat top center; }
+.c1_img3 { position: absolute; top: 85px; left: 900px; background: url(../images/fantawild2016/x1_img3.jpg) no-repeat top center; }
+.c1_img4 { position: absolute; top: 700px; left: 0; background: url(../images/fantawild2016/x1_img4.jpg) no-repeat top center; }
+.c1_img5 { position: absolute; top: 700px; left: 450px; background: url(../images/fantawild2016/x1_img5.jpg) no-repeat top center; }
+.c1_img6 { position: absolute; top: 700px; left: 900px; background: url(../images/fantawild2016/x1_img6.jpg) no-repeat top center; }
+.c1_img7 { position: absolute; top: 1315px; left: 0; background: url(../images/fantawild2016/x1_img7.jpg) no-repeat top center; }
+.c1_img8 { position: absolute; top: 1315px; left: 450px; background: url(../images/fantawild2016/x1_img8.jpg) no-repeat top center; }
+.c1_img1:hover { border-bottom: 20px solid #f0eaf4; opacity: 0.8; filter: alpaha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.c1_img2:hover { border-bottom: 20px solid #f9f0cd; opacity: 0.8; filter: alpaha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.c1_img3:hover { border-bottom: 20px solid #dcecf4; opacity: 0.8; filter: alpaha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.c1_img4:hover { border-bottom: 20px solid #dcecf4; opacity: 0.8; filter: alpaha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.c1_img5:hover { border-bottom: 20px solid #f0eaf4; opacity: 0.8; filter: alpaha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.c1_img6:hover { border-bottom: 20px solid #e4f7ce; opacity: 0.8; filter: alpaha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.c1_img7:hover { border-bottom: 20px solid #f9f0cd; opacity: 0.8; filter: alpaha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.c1_img8:hover { border-bottom: 20px solid #dcecf4; opacity: 0.8; filter: alpaha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.x1_c2 { width: 100%; margin: 0 auto; height: 740px; background: url(../images/fantawild2016/c2_bg.jpg) no-repeat center; }
+.c2_1280 { width: 1280px; margin: 0 auto; height: 100%; position: relative; }
+.c2_img1 { position: absolute; top: 124px; left: 220px; background: url(../images/fantawild2016/c2_img1.jpg) no-repeat top center; width: 368px; height: 493px; overflow: hidden; }
+.c2_img2 { position: absolute; top: 124px; left: 690px; background: url(../images/fantawild2016/c2_img2.jpg) no-repeat top center; width: 368px; height: 493px; overflow: hidden; }
+.c2_img1:hover { opacity: 0.8; filter: alpha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.c2_img2:hover { opacity: 0.8; filter: alpha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.x1_c3 { width: 100%; margin: 0 auto; height: 856px; background-color: #f9f8f8; padding-top: 40px; }
+.c3_1280 { width: 1280px; margin: 0 auto; height: 100%; position: relative; }
+.x1_c3 a div { position: absolute; bottom: 30px; left: 30px; }
+.c3_img1 { position: absolute; top: 100px; left: 0; background: url(../images/fantawild2016/c3_img1.jpg) no-repeat top center; width: 336px; height: 697px; overflow: hidden; }
+.c3_img2 { position: absolute; top: 100px; left: 490px; background: url(../images/fantawild2016/c3_img2.jpg) no-repeat top center; width: 336px; height: 697px; overflow: hidden; }
+.c3_img3 { position: absolute; top: 100px; left: 890px; background: url(../images/fantawild2016/c3_img3.jpg) no-repeat top center; width: 336px; height: 697px; overflow: hidden; }
+.x1_c3 a:hover img { transform: scale(1.05); -webkit-transform: scale(1.05); -o-transform: scale(1.05); -moz-transform: scale(1.05); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.x1_c4 { margin: 50px auto; }
+
+.t1 { width: 1280px; margin: 0 auto; background-color: #f0eaf4; padding-top: 60px; margin-bottom: 60px; padding-bottom: 40px; }
+    .t1 p { width: 1175px; margin: 0 auto; text-indent: 2em; font-size: 14px; color: #343434; line-height: 24px; }
+
+.x1_t2_h { display: none; }
+.xt_list { width: 1280px; margin: 0 auto; display: block; position: relative; height: 236px; background-color: #f9f0cd; }
+.xt_list_img { width: 330px; height: 205px; position: absolute; left: 12px; top: 12px; overflow: hidden; }
+    .xt_list_img img { width: 330px; }
+.xt_list_con { width: 900px; height: 195px; position: absolute; right: 0; top: 0; padding: 20px; }
+    .xt_list_con h3 { font-size: 16px; font-weight: normal; border-bottom: 1px solid #be7306; height: 35px; line-height: 31px; overflow: hidden; width: 100%; color: #be7306; }
+    .xt_list_con span { width: 100%; overflow: hidden; display: block; height: 142px; line-height: 29px; font-size: 14px; margin-top: 10px; text-indent: 2em; color: #010101; }
+.xt_list:hover img { transform: scale(1.06); -webkit-transform: scale(1.06); -o-transform: scale(1.06); -moz-transform: scale(1.06); transition: all .5s linear; -webkit-transition: all .5s linear; -o-transition: all .5s linear; -moz-transition: all .5s linear; }
+
+.x_list { width: 1280px; margin: 0 auto; margin-top: 75px; }
+    .x_list li { width: 1280px; height: 165px; margin-bottom: 40px; position: relative; }
+.x_list_date { width: 104px; height: 145px; background-color: #1990db; text-align: center; padding-top: 20px; position: relative; color: #1990db; }
+    .x_list_date h2 { font-size: 40px; background-color: #fff; width: 68px; height: 68px; border-radius: 50%; margin: 0 auto; line-height: 68px; font-weight: normal; }
+    .x_list_date span { display: block; position: absolute; width: 104px; height: 60px; line-height: 60px; font-size: 24px; background-color: #fafafa; bottom: 0; left: 0; }
+.x_list_img { width: 268px; height: 165px; position: absolute; left: 114px; top: 0; overflow: hidden; }
+    .x_list_img img { width: 268px; }
+.x_list_con { width: 856px; height: 125px; position: absolute; right: 0; top: 0; padding: 20px; }
+    .x_list_con h3 { font-size: 16px; font-weight: normal; border-bottom: 1px solid #bababa; height: 35px; line-height: 30px; overflow: hidden; width: 100%; }
+    .x_list_con span { width: 100%; overflow: hidden; display: block; height: 80px; font-size: 14px; margin-top: 10px; color: #919191; }
+.x_list li:hover h3 { color: #1990db; border-bottom: 1px solid #1990db; overflow: hidden; }
+.x_list li:hover .x_list_con { background-color: #fafafa; }
+.x_list li:hover img { transform: scale(1.06); -webkit-transform: scale(1.06); -o-transform: scale(1.06); -moz-transform: scale(1.06); transition: all .5s linear; -webkit-transition: all .5s linear; -o-transition: all .5s linear; -moz-transition: all .5s linear; }
+
+.comic_content { width: 1200px; margin: 0 auto; padding-top: 50px; color: #343434; font-size: 14px; line-height: 25px; }
+    .comic_content h3 { font-size: 24px; text-align: center; font-weight: normal; line-height: 35px; }
+    .comic_content p { text-indent: 2em; }
+    .comic_content img { margin: 0 auto; }
+.comic_content_meta { width: 100%; text-align: center; margin: 20px 0; }
+
+.x1_t3_h { display: none; }
+.t3 { width: 1280px; margin: 0 auto; position: relative; height: 236px; background-color: #dcecf4; }
+.tmall_link { display: block; width: 280px; height: 120px; background-color: #e5f1f7; position: absolute; top: 32px; left: 35px; }
+    .tmall_link img { width: 230px; margin: 24px auto; }
+    .tmall_link:hover { background-color: #f9f4e7; }
+.lipin_link { display: block; width: 280px; height: 120px; background-color: #e5f1f7; position: absolute; top: 32px; left: 340px; }
+    .lipin_link:hover { background-color: #f9f4e7; }
+    .lipin_link img { width: 240px; margin: 24px auto; }
+.jidong_link { display: block; width: 280px; height: 120px; background-color: #e5f1f7; position: absolute; top: 32px; left: 640px; }
+    .jidong_link:hover { background-color: #f9f4e7; }
+    .jidong_link img { width: 175px; margin: 20px auto; }
+.weidian_link { display: block; width: 280px; height: 120px; background-color: #e5f1f7; position: absolute; top: 32px; left: 940px; }
+    .weidian_link:hover { background-color: #f9f4e7; }
+    .weidian_link img { width: 230px; margin: 20px auto; }
+
+/*小虫虫系列*/
+.xcc_1 { background: url(../images/fantawild2016/xcc_t.jpg) no-repeat right top; position: relative; height: 350px !important; }
+.xcc_c1 { width: 100%; background: url(../images/xcc_1.jpg) no-repeat center; height: 686px; }
+.xcc_c2 { width: 100%; background: url(../images/xcc_2.jpg) no-repeat center; height: 966px; }
+#xc1_t1 { background-color: #f0eaf4; width: 320px; height: 105px; position: absolute; top: 220px; left: 315px; cursor: pointer; }
+    #xc1_t1 .x1_img { position: absolute; left: 70px; top: 40px; }
+    #xc1_t1 p { background-color: #aa2596; width: 250px !important; text-indent: 100px; }
+#xc1_t2 { background-color: #f9f0cd; width: 320px; height: 105px; position: absolute; top: 220px; left: 760px; cursor: pointer; }
+    #xc1_t2 .x1_img { position: absolute; left: 70px; top: 40px; }
+    #xc1_t2 p { background-color: #f7970b; width: 250px !important; text-indent: 100px; }
+.xc1_t1_h { margin: 0 auto; }
+.xc1_t2_h { display: none; }
+.xxc1_c1 { width: 100%; margin: 0 auto; height: 740px; background: url(../images/fantawild2016/xj1_bg.jpg) no-repeat center; }
+.xxc_1280 { width: 1280px; margin: 0 auto; height: 100%; position: relative; }
+.xxc1_sp1 { position: absolute; color: #aa2596; font-size: 24px; top: 200px; left: 0px; }
+.xxc1_sp2 { position: absolute; color: #ae6c0c; font-size: 24px; top: 500px; right: 0px; }
+.xxc1_img1 { position: absolute; top: 124px; left: 220px; background: url(../images/fantawild2016/xxc1_img1.jpg) no-repeat top center; width: 384px; height: 493px; overflow: hidden; }
+.xxc1_img2 { position: absolute; top: 124px; left: 670px; background: url(../images/fantawild2016/xxc1_img2.jpg) no-repeat top center; width: 384px; height: 486px; overflow: hidden; }
+.xxc1_img1:hover { opacity: 0.8; filter: alpha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.xxc1_img2:hover { opacity: 0.8; filter: alpha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+
+/*小鸡不好惹*/
+.xj_1 { background: url(../images/fantawild2016/xj_t.jpg) no-repeat right top; position: relative; height: 350px !important; }
+.xj1_c1 { width: 100%; margin: 0 auto; height: 740px; background: url(../images/fantawild2016/xj1_bg.jpg) no-repeat center; }
+.xj_1280 { width: 1280px; margin: 0 auto; height: 100%; position: relative; }
+.xj1_sp1 { position: absolute; color: #aa2596; font-size: 24px; top: 200px; left: 0px; }
+.xj1_sp2 { position: absolute; color: #ae6c0c; font-size: 24px; top: 500px; right: -55px; }
+.xj1_img1 { position: absolute; top: 124px; left: 220px; background: url(../images/fantawild2016/xj1_img1.jpg) no-repeat top center; width: 384px; height: 493px; overflow: hidden; }
+.xj1_img2 { position: absolute; top: 124px; left: 670px; background: url(../images/fantawild2016/xj1_img2.jpg) no-repeat top center; width: 384px; height: 486px; overflow: hidden; }
+.xj1_img1:hover { opacity: 0.8; filter: alpha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.xj1_img2:hover { opacity: 0.8; filter: alpha(opacity=80); transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.xj_c2 { width: 100%; background: url(../images/xj_2.jpg) no-repeat center; height: 892px; }
+.xj_c3 { width: 100%; background: url(../images/xj_3.jpg) no-repeat center; height: 866px; }
+.xj_c4 { width: 100%; background: url(../images/xj_4.jpg) no-repeat center; height: 448px; }
+
+/*生肖传奇*/
+.sx_1 { background: url(../images/fantawild2016/sx_t.jpg) no-repeat right top; position: relative; height: 350px !important; }
+.sx1_c1 { width: 1280px; margin: 70px auto; height: 1260px; position: relative; }
+    .sx1_c1 a { display: block; width: 379px; height: 545px; overflow: hidden; border-bottom: 20px solid #fff; }
+.sx1_img1 { position: absolute; top: 85px; left: 0; background: url(../images/fantawild2016/sx1_img1.jpg) no-repeat top center; }
+.sx1_img2 { position: absolute; top: 85px; left: 450px; background: url(../images/fantawild2016/sx1_img2.jpg) no-repeat top center; }
+.sx1_img3 { position: absolute; top: 85px; left: 900px; background: url(../images/fantawild2016/sx1_img3.jpg) no-repeat top center; }
+.sx1_img1:hover { border-bottom: 20px solid #f0eaf4; transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.sx1_img2:hover { border-bottom: 20px solid #f9f0cd; transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.sx1_img3:hover { border-bottom: 20px solid #dcecf4; transition: .3s; -o-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; }
+.sx_c2 { width: 100%; background: url(../images/sx_2.jpg) no-repeat center; height: 1342px; }
+.sx_c3 { width: 100%; background: url(../images/sx_3.jpg) no-repeat center; height: 840px; }
+.sx_c4 { width: 100%; background: url(../images/sx_4.jpg) no-repeat center; height: 864px; }
+
+/*动漫品牌授权*/
+.grant_t1 { width: 298px; margin: 0 auto; }
+.grant_1 { width: 1280px; margin: 0 auto; height: 500px; position: relative; padding-bottom: 40px; }
+.link_xcm { width: 370px; height: 500px; position: absolute; top: 0; left: -30px; background: url(../images/fantawild2016/grant_1.png) no-repeat; background-position: 10px 80px; }
+.link_xj { width: 370px; height: 500px; position: absolute; top: 0; left: 300px; background: url(../images/fantawild2016/grant_1.png) no-repeat; background-position: -420px 80px; }
+.link_sx { width: 370px; height: 500px; position: absolute; top: 0; left: 600px; background: url(../images/fantawild2016/grant_1.png) no-repeat; background-position: -780px 80px; }
+.link_xcc { width: 370px; height: 500px; position: absolute; top: 0; left: 920px; background: url(../images/fantawild2016/grant_1.png) no-repeat; background-position: -1170px 80px; }
+.link_xcm:hover { background-position: 7px -470px; }
+.link_xj:hover { background-position: -410px -470px; }
+.link_sx:hover { background-position: -780px -470px; }
+.link_xcc:hover { background-position: -1170px -470px; }
+.grant_2 { width: 1280px; margin: 0 auto; height: 500px; position: relative; }
+    .grant_2 div { width: 416px; height: 200px; box-shadow: 6px 0px 20px #f8f8f8; border: 2px solid #f8f8f8; text-align: center; padding-top: 100px; color: #646869; }
+    .grant_2 b { font-size: 18px; padding-bottom: 10px; display: block; }
+    .grant_2 span { font-size: 16px; }
+    .grant_2 div:hover { border: 2px solid #95caf3; transition: .5s; -o-transition: .5s; -moz-transition: .5s; -webkit-transition: .5s; }
+        .grant_2 div:hover b { color: #3091dc; transition: .5s; -o-transition: .5s; -moz-transition: .5s; -webkit-transition: .5s; }
+.g2_1 { position: absolute; left: 0; top: 0; }
+.g2_2 { position: absolute; left: 440px; top: 0; }
+.g2_3 { position: absolute; left: 880px; top: 0; }
+
+/*搜索*/
+.newslist_serch { width: 1280px; margin: 40px auto; position: relative; font-size: 16px; }
+    .newslist_serch span { color: #689ff6; }
+/*联系我们*/
+.bg_aboutus { width: 100%; height: 520px; background: url(../images/fantawild2016/bg_aboutus.jpg) no-repeat top center; }
+.bg_aboutus_1280 { width: 1280px; height: 523px; margin: 0 auto; position: relative; }
+.bg_aboutus_1 { position: absolute; top: 355px; left: 110px; opacity: 1; animation: aboutusup1 1s ease-in-out forwards; -webkit-animation: aboutusup1 1s ease-in-out forwards; -moz-animation: aboutusup1 1s ease-in-out forwards; -o-animation: aboutusup1 1s ease-in-out forwards; }
+.bg_aboutus_2 { position: absolute; top: 415px; left: 115px; opacity: 1; animation: aboutusup2 1.5s ease-in-out forwards; -webkit-animation: aboutusup2 1.5s ease-in-out forwards; -moz-animation: aboutusup2 1.5s ease-in-out forwards; -o-animation: aboutusup2 1.5s ease-in-out forwards; }
+
+@keyframes aboutusup1 {
+    0% { top: 530px; opacity: 0; }
+}
+
+@keyframes aboutusup2 {
+    0% { top: 530px; opacity: 0; }
+    50% { top: 530px; opacity: 0; }
+}
+
+.aboutus_menu { width: 100%; height: 95px; background-color: #efefef; border-bottom: 8px solid #ffbc1d; line-height: 95px; font-size: 20px; }
+.aboutus_menu_1280 { width: 1280px; height: 100%; margin: 0 auto; }
+    .aboutus_menu_1280 a { display: block; width: 178px; height: 95px; text-align: center; color: #1890dc; float: left; border-left: 1px solid #e3e3e3; transition: all .3s linear; -webkit-transition: all .3s linear; -o-transition: all .3s linear; -moz-transition: all .3s linear; }
+        .aboutus_menu_1280 a:hover { background-color: #ffbc1d; color: #fff; }
+.aboutus_menu_cur { background-color: #ffbc1d; color: #fff !important; width: 200px !important; }
+.aboutus_title { width: 1280px; height: 36px; line-height: 36px; margin: 0 auto; color: #707070; font-size: 14px; background: url(../images/fantawild2016/home.png) no-repeat 10px 10px; border-bottom: 1px solid #cccccc; margin-bottom: 34px; }
+    .aboutus_title a { color: #707070; }
+.aboutus_2 { width: 1280px; height: 140px; line-height: 60px; color: #3598db; margin: 0 auto; font-size: 18px; text-align: center; }
+    .aboutus_2 span { display: block; width: 636px; height: 56px; background-color: #efefef; cursor: pointer; }
+.aboutus_2_left { float: left; height: 80px; width: 636px; }
+.aboutus_2_right { float: right; height: 80px; width: 636px; }
+.aboutus_2_cur { background: url(../images/fantawild2016/jiantouxia.png) no-repeat center 54px; }
+    .aboutus_2_cur span { color: #fff; background-color: #ffbc1d; }
+.table_line { width: 950px; margin: 0 auto; height: 4px; background-color: #19adc9; margin-bottom: 2px; }
+.about_table { width: 950px; margin: 0 auto; height: auto; border: 1px solid #aebfca; font-size: 14px; color: #707070; margin-bottom: 20px; }
+    .about_table thead { background-color: #19adc9; text-align: center; color: #fff; font-size: 20px; }
+    .about_table td { height: 50px; line-height: 50px; padding-left: 20px; }
+.td_center { text-align: center; border-right: 1px solid #aebfca; padding-left: 0 !important; width: 320px; }
+.bg_ddecef { background-color: #ddecef; }
+.company_1280 { position: relative; width: 1280px; margin: 0 auto; height: 1px; }
+.company_2 { display: none; opacity: 0; filter: alpha(opacity=0); }
+.aboutus_map { width: 1280px; margin: 0 auto; position: relative; height: 670px; background: url(../images/fantawild2016/map_company.jpg) no-repeat 20px 20px; }
+.aboutus_map_t1 { position: absolute; top: 310px; left: 760px; font-size: 28px; font-weight: bold; }
+.aboutus_map_t2 { position: absolute; top: 350px; left: 760px; font-size: 24px; }
+.aboutus_map_line1 { position: absolute; width: 90px; height: 8px; background-color: #2383d9; top: 400px; left: 768px; }
+.aboutus_map_line2 { position: absolute; width: 8px; height: 40px; background-color: #2383d9; top: 400px; left: 760px; }
+.aboutus_map_line3 { position: absolute; width: 90px; height: 8px; background-color: #2383d9; top: 552px; left: 1090px; }
+.aboutus_map_line4 { position: absolute; width: 8px; height: 40px; background-color: #2383d9; top: 520px; left: 1180px; }
+.introduce { position: absolute; width: 344px; height: 100px; line-height: 22px; color: #373535; top: 430px; left: 800px; display: none; opacity: 0; filter: alpha(opacity=0); }
+    .introduce h2 { color: #1e60f3; margin-bottom: 5px; }
+.i_map_7 { display: block; opacity: 1; filter: alpha(opacity=100); }
+.map_dian { position: absolute; background: url(../images/fantawild2016/dian_y.png) no-repeat bottom center; width: 40px; height: 84px; text-align: center; cursor: pointer; overflow: hidden; opacity: 0; filter: alpha(opacity=0); }
+    .map_dian b { font-size: 14px; display: block; position: absolute; bottom: 110px; z-index: 10; left: 0; text-align: center; width: 40px; overflow: hidden; }
+    .map_dian img { position: absolute; width: 20px; height: 27px; position: absolute; bottom: -30px; left: 11px; z-index: 15; }
+    .map_dian div { width: 40px; height: 84px; background: url(../images/fantawild2016/dian.png) no-repeat; background-position: 11px 42px; position: absolute; bottom: -84px; left: 0; z-index: 20; }
+
+/*.map_dian:hover div{ width:25px; height:34px; margin:0 auto; background:url(../images/fantawild2016/dian_h.png) no-repeat;}
+.map_dian:hover b{ font-size:18px; color:#1e60f3; margin-top:0;}*/
+.map_dian_cur div { opacity: 1; filter: alpha(opacity=100); background: url(../images/fantawild2016/dian_h.png) no-repeat; background-position: 8px 36px; transition: .2s; -webkit-transition: .2s; -moz-transition: .2s; -o-transition: .2s; }
+.map_dian_cur b { font-size: 18px; color: #1e60f3; transition: .2s; -webkit-transition: .2s; -moz-transition: .2s; -o-transition: .2s; }
+#map_1 { top: 140px; left: 615px; }
+#map_2 { top: 185px; left: 550px; }
+#map_3 { top: 248px; left: 545px; }
+#map_4 { top: 236px; left: 577px; }
+#map_5 { top: 216px; left: 606px; }
+#map_6 { top: 290px; left: 515px; }
+#map_7 { top: 322px; left: 567px; }
+#map_8 { top: 388px; left: 496px; }
+#map_9 { top: 410px; left: 590px; }
+#map_10 { top: 189px; left: 306px; width: 60px !important; }
+    #map_10 b { width: 60px !important; }
+    #map_10 div { width: 60px !important; background-position: 22px 42px !important; }
+#map_11 { top: 337px; left: 625px; }
+#map_12 { top: 359px; left: 419px; }
+#map_13 { top: 446px; left: 569px; }
+#map_14 { top: 198px; left: 490px; }
+
+.aboutus_1280 { width: 1280px; height: auto; margin: 0 auto; position: relative; }
+.nsquare1 { position: absolute; z-index: 100; width: 140px; height: 140px; background-color: #f6ebf0; top: -50px; left: -160px; }
+.nsquare2 { position: absolute; z-index: 100; width: 70px; height: 70px; background-color: #e5f1f4; top: 100px; left: -250px; }
+.nsquare3 { position: absolute; z-index: 100; width: 45px; height: 45px; background-color: #f0eaf4; top: 600px; left: -195px; }
+.nsquare4 { position: absolute; z-index: 100; width: 125px; height: 125px; background-color: #f8eecc; top: 646px; left: -146px; }
+.nsquare5 { position: absolute; z-index: 100; width: 60px; height: 60px; background-color: #f0f6f9; top: 800px; left: -190px; }
+.nsquare6 { position: absolute; z-index: 100; width: 40px; height: 40px; background-color: #f8eff3; top: 1000px; left: -60px; }
+
+.nsquare7 { position: absolute; z-index: 100; width: 55px; height: 55px; background-color: #eee7f2; top: 1240px; right: -120px; }
+.nsquare8 { position: absolute; z-index: 100; width: 112px; height: 112px; background-color: #faf7ee; top: 1340px; right: -40px; }
+.nsquare9 { position: absolute; z-index: 100; width: 165px; height: 165px; background-color: #faf8f4; top: 1540px; right: -200px; opacity: 0.7; filter: alpha(opacity=70); z-index: 30; }
+.nsquare10 { position: absolute; z-index: 100; width: 130px; height: 130px; background-color: #d8e7f9; top: 1660px; right: -280px; z-index: 20; }
+
+/*品牌故事*/
+.brandstory_1 { width: 1000px; height: auto; margin: 0 auto; position: relative; font-size: 16px; line-height: 30px; }
+.b1_img1 { margin: 50px auto; }
+.bdquare1 { position: absolute; z-index: 100; width: 140px; height: 140px; background-color: #f6ebf0; top: -50px; left: -160px; }
+.bdquare2 { position: absolute; z-index: 100; width: 70px; height: 70px; background-color: #e5f1f4; top: 100px; left: -250px; }
+.bdquare3 { position: absolute; z-index: 100; width: 45px; height: 45px; background-color: #f0eaf4; top: 600px; left: -195px; }
+.bdquare4 { position: absolute; z-index: 100; width: 125px; height: 125px; background-color: #f8eecc; top: 500px; left: -146px; }
+.bdquare5 { position: absolute; z-index: 100; width: 60px; height: 60px; background-color: #f0f6f9; top: 800px; left: -190px; }
+.bdquare6 { position: absolute; z-index: 100; width: 40px; height: 40px; background-color: #f8eff3; top: 1000px; left: -60px; }
+
+.bdquare7 { position: absolute; z-index: 100; width: 125px; height: 125px; background-color: #f8eecc; top: -50px; right: -150px; }
+.bdquare8 { position: absolute; z-index: 100; width: 112px; height: 112px; background-color: #faf7ee; top: 100px; right: -40px; }
+.bdquare9 { position: absolute; z-index: 100; width: 165px; height: 165px; background-color: #faf8f4; top: 500px; right: -200px; opacity: 0.7; filter: alpha(opacity=70); z-index: 30; }
+.bdquare10 { position: absolute; z-index: 100; width: 130px; height: 130px; background-color: #d8e7f9; top: 400px; right: -280px; z-index: 20; }
+
+/*全国布局*/
+/*全国布局*/
+.layout_map { width: 1280px; margin: 0 auto; position: relative; height: 770px; background: url(../images/fantawild2016/map_layout.jpg) no-repeat ; }
+.layout_ed { position:absolute;height:28px; top:200px;left:880px; font-size:16px; background:url(../images/fantawild2016/layoutd.png) no-repeat left center;text-indent: 30px;}
+.layout_ing { position:absolute;height:28px; top:240px;left:880px; font-size:16px;background:url(../images/fantawild2016/dian_laying.png) no-repeat left center;text-indent: 30px;}
+.layout_map_t1 { position: absolute; top: 310px; left: 880px; font-size: 28px; font-weight: bold; }
+.layout_map_t2 { position: absolute; top: 350px; left: 880px; font-size: 24px; }
+.layout_map_line1 { position: absolute; width: 90px; height: 8px; background-color: #2383d9; top: 400px; left: 888px; }
+.layout_map_line2 { position: absolute; width: 8px; height: 40px; background-color: #2383d9; top: 400px; left: 880px; }
+.layout_map_line3 { position: absolute; width: 90px; height: 8px; background-color: #2383d9; top: 690px; left: 1180px; }
+.layout_map_line4 { position: absolute; width: 8px; height: 40px; background-color: #2383d9; top: 658px; left: 1270px; }
+.layout_in { position: absolute; width: 330px; line-height: 24px; color: #373535; top: 430px; left: 920px; display: none; opacity: 0; filter: alpha(opacity=0); font-size: 16px; }
+    .layout_in h2 { color: #fd9b00; margin-bottom: 10px; }
+    .layout_in img { }
+.l_map_7 { display: block; opacity: 1; filter: alpha(opacity=100); }
+.layout_dian { position: absolute; background: url(../images/fantawild2016/dian_y.png) no-repeat bottom center; width: 40px; height: 84px; text-align: center; cursor: pointer; overflow: hidden;  }
+    .layout_dian b { font-size: 14px; display: block; position: absolute; bottom: 110px; z-index: 10; left: 0; text-align: center; width: 40px; overflow: hidden; }
+    .layout_dian img { position: absolute; width: 20px; height: 27px; position: absolute; bottom: -30px; left: 11px; z-index: 15; }
+    .layout_dian div { width: 40px; height: 84px; background: url(../images/fantawild2016/layoutd.png) no-repeat; background-position: 11px 42px; position: absolute; bottom: -84px; left: 0; z-index: 20; }
+.lay_ing div { background: url(../images/fantawild2016/dian_laying.png) no-repeat 11px 42px;}
+.layout_dian_cur div { opacity: 1; filter: alpha(opacity=100); background: url(../images/fantawild2016/layoutd_h.png) no-repeat; background-position: 8px 36px; transition: .2s; -webkit-transition: .2s; -moz-transition: .2s; -o-transition: .2s; }
+.layout_dian_cur b { font-size: 18px; color: #522b01; transition: .2s; -webkit-transition: .2s; -moz-transition: .2s; -o-transition: .2s; }
+#la_1 { top: 154px; left: 737px; }
+#la_2 { top: 214px; left: 650px; }
+#la_3 { top: 300px; left: 647px; }
+#la_4 { top: 276px; left: 679px; }
+#la_5 { top: 253px; left: 715px; }
+#la_6 { top: 350px; left: 602px; }
+#la_7 { top: 374px; left: 664px; }
+#la_8 { top: 460px; left: 600px; }
+#la_9 { top: 509px; left: 703px; }
+#la_10 { top: 220px; left: 358px; width: 60px !important; }
+    #la_10 b { width: 60px !important; }
+    #la_10 div { width: 60px !important; background-position: 19px 42px !important; }
+#la_11 { top: 404px; left: 743px; }
+#la_12 { top: 431px; left: 485px; }
+#la_13 { top: 539px; left: 671px; }
+#la_14 { top: 225px; left: 580px; }
+
+#la_15 { top: 243px; left: 618px; }
+#la_16 { top: 288px; left: 571px; }
+#la_17 { top: 300px; left: 610px; }
+#la_18 { top: 338px; left: 563px; }
+#la_19 { top: 400px; left: 602px; }
+#la_20 { top: 374px; left: 464px; }
+#la_21 { top: 434px; left: 442px; }
+#la_22 { top: 463px; left: 556px; }
+#la_23 { top: 460px; left: 646px; }
+#la_24 { top: 550px; left: 530px; }
+#la_25 { top: 483px; left: 504px; }
+
+.l_la_7 { display: block; opacity: 1; filter: alpha(opacity=100); }
+.layout_1 { width: 1280px; margin: 0 auto; }
+.layout_t { margin: 20px auto; }
+.layout_ul { width: 1200px; margin: 0 auto; }
+    .layout_ul li { width: 1200px; height: 300px; margin-bottom: 50px; }
+    .layout_ul img { float: left; }
+    .layout_ul p { width: 730px; height: 300px; float: right; font-size: 16px; line-height: 30px; }
+    .layout_ul h3 { font-size: 22px; color: #1890dc; list-style: disc inside; border-bottom: 1px dashed #a0a0a0; height: 40px; line-height: 40px; margin-bottom: 20px; }
+
+/*企业荣耀*/
+.honor_main { width: 1280px; margin: 0 auto; height: auto; background-color: #fff; box-shadow: 1px 1px 20px #f2eeef; padding: 50px 0; min-height: 1200px; position: relative; }
+.honor_1 { width: 1080px; height: 200px; margin: 0 auto; position: relative; margin-bottom: 50px; }
+    .honor_1 img { float: left; }
+    .honor_1 h1 { font-size: 28px; color: #f7554d; font-weight: normal; float: right; width: 870px; margin-bottom: 20px; }
+    .honor_1 p { width: 870px; height: 130px; float: right; font-size: 14px; color: #3f3f3f; text-indent: 2em; line-height: 25px; }
+.honor_2 { width: 1280px; margin: 0 auto; }
+#featureContainer { }
+#feature { position: relative; width: 1280px; overflow: hidden; }
+    #feature .prev { width: 48px; background: url(../images/fantawild2016/feature_left.png) no-repeat; height: 47px; display: block; opacity: 0.7; filter: alpha(opacity=70); position: absolute; left: 30px; top: 48px; }
+    #feature .next { width: 48px; background: url(../images/fantawild2016/feature_right.png) no-repeat; height: 47px; display: block; opacity: 0.7; filter: alpha(opacity=70); position: absolute; right: 30px; top: 48px; }
+    #feature .prev:hover { opacity: 1; filter: alpha(opacity=100); }
+    #feature .next:hover { opacity: 1; filter: alpha(opacity=100); }
+.featureUL { position: relative; width: 2800px; float: left; }
+.featureUL_cur { width: 200px !important; height: 110px !important; box-shadow: 0 5px 5px #c7bbd1; line-height: 110px !important; font-size: 36px; margin-top: -10px; opacity: 1 !important; filter: alpha(opacity=100) !important; }
+.featureBox { cursor: pointer; float: left; overflow: hidden; margin-right: 3px; width: 175px; height: 94px; background-color: #f7554d; opacity: 0.7; filter: alpha(opacity=70); color: #fff; line-height: 94px; font-size: 28px; text-align: center; transition: all .3s linear; -webkit-transition: all .3s linear; -o-transition: all .3s linear; -moz-transition: all .3s linear; }
+    .featureBox:hover { opacity: 1; filter: alpha(opacity=100); }
+#botton-scroll { margin: 0px auto; width: 1090px; height: 190px; padding-top: 20px; overflow: hidden; }
+.honor_month { float: left; position: relative; width: 1060px; margin-left: 130px; border-left: 1px solid #cfcfcf; }
+.honor_ul { width: 1080px; margin: 0 auto; height: auto; float: left; }
+    .honor_ul li { position: relative; font-size: 16px; line-height: 25px; padding-left: 40px; margin-bottom: 20px; float: left; min-height: 30px; width: 1000px; }
+        .honor_ul li b { float: left; width: 100px; height: 30px; }
+        .honor_ul li p { float: right; width: 900px; text-indent: 0; }
+.honor_li_bg { position: absolute; top: 4px; left: -10px; }
+.lisp { min-height: 0 !important; height: 0; }
+.honor_month_bg { width: 67px; height: 66px; line-height: 66px; text-align: center; color: #fff; font-size: 18px; position: absolute; z-index: 999; top: -24px; left: -35px; background: url(../images/fantawild2016/honor_month_bg.png) no-repeat; }
+.h_2, .h_3, .h_4, .h_5, .h_6, .h_7, .h_8, .h_9, .h_10, .h_11 { display: none; }
+
+
+/*核心理念*/
+.philosophy_1280 { width: 1280px; margin: 0 auto; height: 100%; position: relative; }
+.philosophy_1 { width: 100%; height: 550px; }
+.philosophy_1_t { margin-top: 40px; }
+.p1_img1 { position: absolute; top: 70px; left: 10px; }
+.p1_p { font-size: 16px; color: #535353; width: 424px; position: absolute; right: 20px; top: 70px; text-indent: 2em; line-height: 25px; }
+.philosophy_2 { width: 100%; height: 426px; background-color: #f8f8f8; padding-top: 50px; position: relative; }
+.p2_p { width: 490px; font-size: 16px; color: #535353; position: absolute; top: 150px; left: 20px; line-height: 25px; }
+.p2_img1 { position: absolute; top: 0; left: 0; height: 45px; width: 100%; border-bottom: 1px dashed #a0a0a0; }
+.p2_img2 { position: absolute; top: 70px; right: 0; }
+.philosophy_3 { width: 100%; height: 630px; position: relative; }
+.p3_p { width: 490px; font-size: 16px; color: #535353; position: absolute; top: 330px; right: 20px; line-height: 25px; }
+.p3_img1 { position: absolute; top: 50px; left: 0; height: 45px; width: 100%; border-bottom: 1px dashed #a0a0a0; }
+.p3_img2 { position: absolute; top: 130px; left: 0; }
+
+/*思想体系*/
+.ideology_1280 { width: 1280px; margin: 0 auto; height: 100%; position: relative; }
+.ideology_1 { width: 100%; height: 580px; background: url(../images/ideology_1.jpg) no-repeat center; }
+.ideology_2 { width: 100%; height: 624px; background: url(../images/ideology_2.jpg) no-repeat center #f8f8f8; }
+.ideology_3 { width: 100%; height: 570px; background: url(../images/ideology_3.jpg) no-repeat center; }
+.ideology_4 { width: 100%; height: 650px; background: url(../images/ideology_4.jpg) no-repeat center #f8f8f8; }
+.ideology_5 { width: 100%; height: 660px; background: url(../images/ideology_5.jpg) no-repeat center; }
+.ideology_6 { width: 100%; height: 655px; background: url(../images/ideology_6.jpg) no-repeat center #f8f8f8; }
+.ideology_7 { width: 100%; height: 620px; background: url(../images/ideology_7.jpg) no-repeat center; }
+
+/*社会招聘*/
+.bg_jionus { width: 100%; height: 594px; background: url(../images/fantawild2016/bg_jionus.jpg) no-repeat top center; position: relative; }
+.bg_jionus1 { width: 100%; height: 520px; background: url(../images/fantawild2016/bg_jionus.jpg) no-repeat top center; position: relative; }
+.socialrec_1 { width: 100%; height: 124px; border-bottom: 5px solid #1990db; background-color: #f4f4f4; }
+.socialrec_1_1280 { position: relative; width: 1280px; height: 100%; margin: 0 auto; }
+.socialrec_1_0 { width: 200px; height: 50px; position: absolute; left: 190px; top: 40px; cursor: pointer; background: url(../images/fantawild2016/socialrec_1.png) no-repeat; background-position: -490px 6px; transition: .3s; }
+.socialrec_1_1 { width: 200px; height: 50px; position: absolute; left: 520px; top: 40px; cursor: pointer; background: url(../images/fantawild2016/socialrec_1.png) no-repeat; background-position: 1px 6px; transition: .3s; }
+.socialrec_1_2 { width: 200px; height: 50px; position: absolute; left: 840px; top: 40px; cursor: pointer; background: url(../images/fantawild2016/socialrec_1.png) no-repeat; background-position: -229px 6px; transition: .3s; }
+.s_cur0 { background-position: -490px -100px !important; }
+.s_cur1 { background-position: 1px -100px !important; }
+.s_cur2 { background-position: -229px -101px !important; }
+.socialrec_1_0:hover { background-position: -490px -100px !important; }
+.socialrec_1_1:hover { background-position: 1px -100px; }
+.socialrec_1_2:hover { background-position: -229px -101px; }
+.socialrec_2 { overflow-y: hidden; padding-top: 50px; }
+.socialrec_2_p { width: 620px; position: relative; margin: 0 auto; font-size: 14px; color: #7d7d7d; overflow: hidden; line-height: 30px; height: 32px; margin-bottom: 5px; padding-left: 90px; }
+    .socialrec_2_p a { margin-right: 20px; display: block; float: left; min-width: 100px; }
+        .socialrec_2_p a:hover { color: #1890dc; }
+    .socialrec_2_p .aclick { color: #1890dc; }
+    .socialrec_2_p b { color: #1f1f1f; display: block; float: left; margin-right: 20px; position: absolute; top: 0; left: 0; }
+    .socialrec_2_p span { display: block; position: absolute; right: 5px; top: 7px; background: url(../images/fantawild2016/socialrec_2_ico.png) no-repeat; width: 20px; height: 20px; cursor: pointer; }
+.socialrec_2_pc { height: auto !important; }
+    .socialrec_2_pc span { background: url(../images/fantawild2016/socialrec_2_icoh.png) no-repeat; }
+.socialrec_ss { width: 480px; height: 40px; margin: 30px auto; }
+.socialrec_txt { float: left; width: 426px; height: 31px; line-height: 31px; border: 1px solid #aaaaaa; border-right: none; font-size: 14px; padding-left: 10px; }
+.socialrec_btn { background: url(../images/fantawild2016/socialrec_ss.jpg) no-repeat; border: 1px solid #aaaaaa; border-left: none; width: 38px; height: 35px; }
+.socialrec_min440 { min-height: 440px; }
+.socialrec_table1 { width: 995px; margin: 0 auto; font-size: 14px; margin-bottom: 50px; }
+    .socialrec_table1 a { display: block; width: 100%; height: 100%; }
+    .socialrec_table1 thead { background-color: #1990db; color: #fff !important; font-size: 16px; text-indent: 30px; height: 30px; line-height: 30px; width: 100%; margin-bottom: 10px; }
+    .socialrec_table1 tbody tr { height: 40px; line-height: 40px; color: #7d7d7d; }
+        .socialrec_table1 tbody tr:hover { color: #1890dc; background-color: #f4f4f4; }
+    .socialrec_table1 tbody td { padding-left: 30px; }
+.tzhiwei { width: 340px; text-align: left; text-indent: 50px; }
+.socialrec_fenye { width: 995px; height: 104px; line-height: 104px; margin: 0 auto; background-color: #f4f4f4; color: #7d7d7d; font-size: 14px; margin-bottom: 110px; text-indent: 30px; position: relative; }
+.socialrec_fenye_1 { position: absolute; top: 0; right: 30px; }
+.socialrec_1280 { position: relative; width: 1280px; height: 1px; margin: 0 auto; }
+.socsquare1 { position: absolute; z-index: 100; width: 140px; height: 140px; background-color: #f6ebf0; top: -50px; left: -160px; }
+.socsquare2 { position: absolute; z-index: 100; width: 70px; height: 70px; background-color: #e5f1f4; top: 100px; left: -250px; }
+.socsquare3 { position: absolute; z-index: 100; width: 45px; height: 45px; background-color: #f0eaf4; top: 600px; left: -160px; }
+.socsquare4 { position: absolute; z-index: 100; width: 125px; height: 125px; background-color: #f8eecc; top: 646px; left: -114px; }
+.socsquare5 { position: absolute; z-index: 100; width: 60px; height: 60px; background-color: #f0f6f9; top: 800px; left: -190px; }
+.socsquare6 { position: absolute; z-index: 100; width: 40px; height: 40px; background-color: #f8eff3; top: 1000px; left: -10px; }
+
+.socsquare7 { position: absolute; z-index: 100; width: 55px; height: 55px; background-color: #eee7f2; top: 240px; right: -120px; }
+.socsquare8 { position: absolute; z-index: 100; width: 112px; height: 112px; background-color: #faf7ee; top: 340px; right: -40px; }
+.socsquare9 { position: absolute; z-index: 100; width: 165px; height: 165px; background-color: #faf8f4; top: 540px; right: -200px; opacity: 0.7; filter: alpha(opacity=70); z-index: 30; }
+.socsquare10 { position: absolute; z-index: 100; width: 130px; height: 130px; background-color: #d8e7f9; top: 660px; right: -280px; z-index: 20; }
+
+/*校园招聘*/
+.bg_campusrec { width: 100%; height: 520px; background: url(../images/fantawild2016/bg_campusrec.jpg) no-repeat top center; position: relative; }
+.campusrec_1 { width: 100%; height: 290px; border-bottom: 5px solid #1990db; background-color: #f4f4f4; }
+.campusrec_1_f { position: absolute; width: 200px; height: 90px; text-align: center; line-height: 90px; font-size: 18px; color: #1990db; border: 1px solid #d0d0d0; cursor: pointer; }
+    .campusrec_1_f:hover { background-color: #1990db; color: #fff; }
+    .campusrec_1_f img { display: none; width: 19px; height: 24px; margin-left: 90px; margin-top: 10px; animation: rec_arrow 1s infinite ease-in-out; -moz-animation: rec_arrow 1s infinite ease-in-out; -webkit-animation: rec_arrow 1s infinite ease-in-out; -o-animation: rec_arrow 1s infinite ease-in-out; }
+
+@keyframes rec_arrow {
+    0% { opacity: 0; margin-top: 0; }
+    100% { opacity: 1; margin-top: 20px; }
+}
+
+.fcur { background-color: #1990db !important; color: #fff !important; }
+    .fcur img { display: block !important; }
+#f1 { top: 140px; left: 210px; }
+#f2 { top: 140px; left: 430px; }
+#f3 { top: 140px; left: 660px; }
+#f4 { top: 140px; left: 880px; }
+.campusrec_f2, .campusrec_f3, .campusrec_f4 { display: none; opacity: 0; filter: alpha(opacity=0); }
+.socialrec_table2 { width: 995px; margin: 0 auto; font-size: 14px; margin-bottom: 110px; }
+    .socialrec_table2 a { display: block; width: 100%; height: 100%; }
+    .socialrec_table2 thead { background-color: #1990db; color: #fff !important; font-size: 16px; text-indent: 30px; height: 30px; line-height: 30px; width: 100%; }
+    .socialrec_table2 tbody tr { height: 40px; line-height: 40px; color: #7d7d7d; }
+        .socialrec_table2 tbody tr:hover { color: #1890dc; background-color: #f4f4f4; }
+    .socialrec_table2 tbody td { text-indent: 30px; }
+
+.table_xjh table { width: 995px; margin: 0 auto; font-size: 14px; margin-bottom: 110px; }
+    .table_xjh table a { display: block; width: 100%; height: 100%; }
+    .table_xjh table tr:first-child { background-color: #1990db; color: #fff !important; font-size: 16px; text-indent: 30px; height: 30px; line-height: 30px; width: 100%; }
+    .table_xjh table tbody tr { height: 40px; line-height: 40px; color: #7d7d7d; }
+        .table_xjh table tbody tr:hover { color: #1890dc; }
+    .table_xjh table tbody td { text-indent: 30px; }
+
+.campusrec_f2_img { margin-left: 152px; margin-top: -51px; }
+.campusrecqa { width: 1087px; margin: 0 auto; }
+.campusrec_f3_t { width: 370px; margin: 30px auto; }
+    .campusrec_f3_t img { float: left; margin-right: 20px; }
+    .campusrec_f3_t h3 { float: left; height: 38px; line-height: 38px; color: #1990db; font-size: 18px; margin-right: 20px; font-weight: normal; }
+.campusrec_f3_t_1 { text-align: center; font-size: 14px; margin-top: 20px; width: 350px; }
+    .campusrec_f3_t_1 span { cursor: pointer; }
+        .campusrec_f3_t_1 span:hover { color: #1990db; }
+.t_cur { color: #1990db; }
+.cam_t { margin: 0 auto; margin-bottom: 20px; text-align: center; font-size: 18px; color: #1990db; height: 40px; line-height: 40px; width: 470px; }
+.cam_t1 { float: left; }
+.cam_t2 { float: right; }
+.cam_c { width: 1033px; margin: 0 auto; }
+.cam_qu { width: 830px; position: relative; background: url(../images/fantawild2016/bg_camq.jpg) no-repeat top left; font-size: 20px; color: #fff; font-weight: bold; margin-top: 35px; }
+    .cam_qu span { position: absolute; top: 11px; left: 90px; }
+    .cam_qu h3 { font-size: 20px; background-color: #76c12c; padding: 10px 60px 10px 40px; margin-left: 82px; width: 600px; border-radius: 10px; }
+.cam_an { width: 960px; position: relative; background: url(../images/fantawild2016/bg_cama.jpg) no-repeat top right; font-size: 16px; color: #6b6b6b; font-weight: bold; padding-top: 20px; }
+    .cam_an h3 { font-size: 16px; background-color: #f4f4f4; padding: 10px 10px 10px 40px; margin-left: 82px; width: 755px; border-radius: 10px; font-weight: normal; line-height: 30px; }
+.cam_c p { width: 860px; margin: 0 auto; font-size: 16px; color: #6b6b6b; font-weight: bold; padding: 50px 0 100px 0; text-indent: 0; line-height: 30px; }
+
+
+/*招聘详情页*/
+.s_detail { width: 1135px; margin: 0 auto; min-height: 800px; }
+    .s_detail h4 { font-size: 18px; color: #696969; padding-left: 70px; background: url(../images/fantawild2016/campusrec_f3_tbg.png) no-repeat; height: 38px; line-height: 38px; font-weight: normal; margin-bottom: 20px; }
+.s_detail_1 { width: 1095px; background-color: #f4f4f4; padding: 30px 20px; margin-bottom: 40px; }
+    .s_detail_1 table { width: 100%; }
+        .s_detail_1 table td { text-indent: 20px; height: 35px; line-height: 35px; font-size: 14px; color: #787878; }
+.s_detail_2 { color: #787878; padding: 0 20px; line-height: 30px; font-size: 14px; }
+    .s_detail_2 h3 { font-size: 18px; margin: 30px 0 10px 0; }
+.rec_resume { width: 170px; height: 56px; text-align: center; cursor: pointer; color: #fff; background-color: #1990db; line-height: 56px; font-size: 18px; margin: 50px 0 110px 10px; }
+    .rec_resume:hover { background-color: #ff7a18; }
+.pop-reclogin { position: fixed; width: 100%; height: 100%; z-index: 999; top: 0; left: 0; background: url(../images/opacity-dark.png); }
+.rec_login { width: 666px; height: 310px; position: fixed; top: 50%; left: 50%; margin-top: -185px; margin-left: -333px; z-index: 1000; background-color: #fff; overflow: hidden; }
+    .rec_login p { position: absolute; width: 100%; top: 140px; font-size: 16px; text-align: center; left: 0; text-indent: 0; }
+    .rec_login h4 { width: 100%; height: 70px; position: relative; text-align: center; color: #fff; background-color: #1990db; font-size: 18px; line-height: 70px; font-weight: normal; }
+.rec_login_x { position: absolute; right: 10px; top: 10px; width: 48px; cursor: pointer; }
+.rec_login_info { position: absolute; top: 90px; left: 140px; line-height: 50px; font-size: 16px; color: #787878; }
+.rec_login_name { position: absolute; width: 280px; height: 30px; line-height: 30px; background-color: #f2f2f2; font-size: 14px; text-indent: 10px; top: 101px; left: 225px; border: 0; }
+.rec_login_password { position: absolute; width: 280px; height: 30px; line-height: 30px; background-color: #f2f2f2; font-size: 14px; text-indent: 10px; top: 149px; left: 225px; border: 0; }
+.rec_login_sub { position: absolute; width: 140px; height: 42px; line-height: 42px; text-align: center; color: #fff; border: 0; background-color: #1990db; font-size: 16px; left: 265px; top: 225px; cursor: pointer; }
+    .rec_login_sub:hover { background-color: #ff7a18; }
+.rec_login_register { font-size: 16px; color: #1990db; position: absolute; top: 247px; left: 423px; cursor: pointer; text-decoration: underline; }
+    .rec_login_register:hover { color: #ff7a18; }
+.login_tip { position: absolute; top: 198px; left: 0; color: red; width: 100%; text-align: center; }
+.rec_register { width: 666px; height: 500px; position: fixed; top: 50%; left: 50%; margin-top: -270px; margin-left: -333px; z-index: 1000; background-color: #fff; display: none; overflow: hidden; }
+    .rec_register h4 { width: 100%; height: 70px; position: relative; text-align: center; color: #fff; background-color: #1990db; font-size: 18px; line-height: 70px; font-weight: normal; }
+.rec_register_x { position: absolute; right: 10px; top: 10px; width: 48px; cursor: pointer; }
+.rec_register_info1 { position: absolute; top: 122px; left: 52px; line-height: 50px; font-size: 16px; color: #787878; }
+.rec_register_info2 { position: absolute; top: 122px; left: 460px; line-height: 50px; font-size: 14px; color: #787878; }
+.rec_register_1 { position: absolute; width: 280px; height: 30px; line-height: 30px; background-color: #f2f2f2; font-size: 14px; text-indent: 10px; top: 132px; left: 156px; border: 0; }
+.rec_register_2 { position: absolute; width: 280px; height: 30px; line-height: 30px; background-color: #f2f2f2; font-size: 14px; text-indent: 10px; top: 182px; left: 156px; border: 0; }
+.rec_register_3 { position: absolute; width: 280px; height: 30px; line-height: 30px; background-color: #f2f2f2; font-size: 14px; text-indent: 10px; top: 232px; left: 156px; border: 0; }
+.rec_register_4 { position: absolute; width: 280px; height: 30px; line-height: 30px; background-color: #f2f2f2; font-size: 14px; text-indent: 10px; top: 282px; left: 156px; border: 0; }
+.rec_register_5 { position: absolute; width: 280px; height: 30px; line-height: 30px; background-color: #f2f2f2; font-size: 14px; text-indent: 10px; top: 332px; left: 156px; border: 0; }
+.rec_register_sub { position: absolute; width: 140px; height: 42px; line-height: 42px; text-align: center; color: #fff; border: 0; background-color: #1990db; font-size: 16px; left: 268px; top: 414px; cursor: pointer; }
+    .rec_register_sub:hover { background-color: #ff7a18; }
+.reg_tip { position: absolute; color: red; top: 388px; left: 290px; }
+
+.rec_delivery { min-height: 668px; font-size: 14px; }
+.socialrec_1_1280 h6 { width: 100%; height: 124px; color: #1a90da; text-align: center; line-height: 124px; font-size: 24px; }
+.rec_delivery_1 { position: absolute; top: 90px; left: 354px; width: 55px; }
+.rec_delivery b { position: absolute; top: 75px; left: 440px; display: block; color: #787878; font-size: 16px; }
+.rec_delivery span { position: absolute; top: 105px; left: 440px; display: block; color: #787878; }
+.rec_delivery_txt { position: absolute; width: 366px; height: 34px; line-height: 34px; border-radius: 5px; border: 1px solid #aaaaaa; top: 145px; left: 440px; }
+.rec_delivery_btn { position: absolute; width: 117px; height: 38px; text-align: center; line-height: 38px; border: 1px solid #c9c9c9; border-radius: 5px; color: #403f3f; font-size: 14px; top: 145px; left: 832px; cursor: pointer; }
+.rec_delivery_sub { position: absolute; width: 168px; height: 55px; border: 0; background-color: #1990db; line-height: 55px; text-align: center; color: #fff; font-size: 16px; top: 230px; left: 575px; cursor: pointer; }
+.rec_delivery_btn:hover { background-color: #ff7a18; }
+.rec_delivery_sub:hover { background-color: #ff7a18; }
+
+.rec_success { width: 666px; height: 310px; position: fixed; top: -30%; left: 50%; margin-top: -185px; margin-left: -333px; z-index: 1000; background-color: #fff; overflow: hidden; display: none; }
+    .rec_success h4 { width: 100%; height: 70px; position: relative; text-align: center; color: #fff; background-color: #1990db; font-size: 18px; line-height: 70px; font-weight: normal; }
+.rec_success_info { position: absolute; top: 110px; left: 250px; line-height: 50px; font-size: 18px; color: #787878; }
+.rec_success_sub { position: absolute; width: 140px; height: 42px; line-height: 42px; text-align: center; color: #fff; border: 0; background-color: #1990db; font-size: 16px; left: 265px; top: 225px; cursor: pointer; }
+    .rec_success_sub:hover { background-color: #ff7a18; }
+
+/*职位申请*/
+.apli_login_x { position: absolute; right: 10px; top: 10px; width: 30px; cursor: pointer; }
+.imp_main { width: 1035px; border-top: 7px solid #5FA9FE; margin: 10px auto 70px; padding-top: 10px; }
+.imp_left { float: left; width: 300px; margin-right: 10px; border: 1px solid #D0D5D8; background-color: #fff; padding-bottom: 60px; }
+.imp_right { float: left; width: 681px; border: 1px solid #D0D5D8; padding: 20px; background-color: #fff; }
+.imp_wanzheng { width: 100%; text-align: center; font-size: 16px; color: #FC835B; border-bottom: 1px solid #dedede; padding-bottom: 20px; margin-bottom: 30px; }
+    .imp_wanzheng span { font-size: 22px; margin-left: 10px; }
+.field_left { width: 258px; margin: 0 auto; color: #308FFD; border: 0; border-top: 1px solid #308FFD; }
+    .field_left legend { margin: 0 auto; font-size: 18px; padding: 0 10px; }
+.imp_l_ul { width: 300px; border-top: 1px dashed #D0D5D8; color: #666; margin-top: 20px; }
+    .imp_l_ul li a { display: block; border-left: 4px solid #D0D5D8; border-bottom: 1px dashed #D0D5D8; width: 296px; height: 50px; line-height: 50px; text-indent: 120px; font-size: 16px; cursor: pointer; position: relative; }
+    .imp_l_ul a:hover { border-left: 4px solid #FFAB48; color: #FFAB48; }
+    .imp_l_ul a span { background: url(../images/fantawild2016/imp_leftbg.jpg) no-repeat; display: block; height: 35px; width: 35px; position: absolute; top: 8px; left: 75px; }
+    .imp_l_ul a:hover span { background-position-x: -114px !important; }
+    .imp_l_ul #improve_0 span { background-position: 0 -538px; }
+    .imp_l_ul #improve_1 span { background-position: 0 6px; }
+    .imp_l_ul #improve_2 span { background-position: 0 -50px; }
+    .imp_l_ul #improve_3 span { background-position: 0 -103px; }
+    .imp_l_ul #improve_4 span { background-position: 0 -158px; }
+    .imp_l_ul #improve_5 span { background-position: 0 -215px; }
+    .imp_l_ul #improve_6 span { background-position: 0 -269px; }
+    .imp_l_ul #improve_7 span { background-position: 0 -323px; }
+    .imp_l_ul #improve_8 span { background-position: 0 -379px; }
+    .imp_l_ul #improve_9 span { background-position: 0 -490px; }
+    .imp_l_ul #improve_10 span { background-position: 0 -435px; }
+    .imp_l_ul .imp_lcur { border-left: 4px solid #FFAB48; color: #FFAB48; }
+        .imp_l_ul .imp_lcur span { background-position-x: -114px !important; transition: .5s; }
+    .imp_l_ul .imp_lcur_h { border-left: 4px solid #FFAB48; }
+
+#table_peiou { display: none; }
+
+.redx { color: red; padding-left: 5px; }
+.ipmr_1 { width: 1040px; margin: 0 auto; }
+.app_t { width: 210px; margin: 0 auto; height: 55px; font-size: 24px; color: #1990db; background: url(../images/fantawild2016/improve_t.png) no-repeat left 40px; line-height: 55px; text-indent: 60px; padding-top: 35px; font-weight: bold; }
+.app_field_1 { height: 10px; padding-left: 0; border: 0; border-top: 1px dashed #333; width: 970px; margin: 0 0 0 50px; }
+    .app_field_1 legend { font-size: 18px; color: #696969; }
+.app_table input[type="text"] { width: 110px; height: 25px; font-size: 14px; text-indent: 10px; border: 1px solid #ccc; }
+.app_table input[type="radio"] { }
+.app_table b { font-weight: normal; position: absolute; top: 0px; right: 55px; color: #666; }
+.app_table select { width: 117px; height: 30px; font-size: 14px; text-indent: 10px; border: 1px solid #ccc; }
+.app_table .td_right { text-align: left; width: 75px; }
+
+.app_table2 { font-size: 14px; }
+    .app_table2 td { height: 40px; line-height: 40px; text-indent: 5px; padding-bottom: 10px; font-size: 14px; position: relative; }
+    .app_table2 input[type="text"] { width: 130px; height: 25px; font-size: 14px; text-indent: 10px; border: 1px solid #ccc; }
+    .app_table2 input[type="radio"] { }
+    .app_table2 b { font-weight: normal; position: absolute; top: 0px; right: 55px; color: #666; }
+    .app_table2 select { width: 95px; height: 30px; font-size: 14px; text-indent: 10px; border: 1px solid #ccc; }
+    .app_table2 .td_right { text-align: left; width: 75px; }
+
+.app_table_3 .td_95 { width: 95px !important; }
+.app_table td { height: 40px; line-height: 40px; text-indent: 5px; padding-bottom: 10px; font-size: 14px; position: relative; }
+#queue1 { display: none; }
+#file_upload1 { width: 116px; height: 166px; padding: 5px; border: 1px solid #ccc; }
+.app_1 { width: 680px; }
+.app_1_t { width: 1040px; background: url(../images/fantawild2016/improve_1_t.png) no-repeat left center; height: 40px; margin: 0 auto; padding-top: 16px; }
+.app_table_0 { width: 800px; color: #333; float: left; height: 120px; margin-top: 30px; }
+.upload_img { margin: 20px auto; position: relative; width: 125px; height: 175px; cursor: pointer; background: url(../images/fantawild2016/file_img.jpg) no-repeat center; }
+ upload_img input { position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; opacity: 0; filter: alpha(opacity=0); }
+.uploadifive-button { position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; }
+
+.app_2_t { width: 1040px; background: url(../images/fantawild2016/app_2_t.png) no-repeat left center; height: 40px; margin: 0 auto; padding-top: 16px; }
+.exp_edu { width: 660px; margin: 20px auto 30px; }
+    .exp_edu li { width: 100%; position: relative; margin-bottom: 30px; overflow: hidden; border-bottom: 1px dashed #ccc; padding-bottom: 10px; }
+    .exp_edu span { display: block; float: left; width: 33%; font-size: 16px; }
+.appimp .edu_editor { position: absolute; top: 5px; right: 30px; cursor: pointer; display: none; }
+.appimp .edu_del { position: absolute; top: 5px; right: 0px; cursor: pointer; display: none; }
+.appimp li:hover img { display: block; transition: .5s; }
+.appimp h2 { font-size: 16px; margin-bottom: 5px; }
+.add_table { margin-bottom: 30px !important; }
+.add_edu { width: 668px; border: 1px solid #70b4ed; border-top: 5px solid #70b4ed; padding: 40px 0 20px 0; display: none; height: 0; overflow: hidden; margin: 0 auto; }
+    .add_edu .td_right { width: 85px; text-align: center !important; }
+.sub_baocun1 { width: 108px; height: 36px; color: #fff; background-color: #1f86dd; text-align: center; line-height: 36px; font-size: 16px; float: right; margin-top: 20px; cursor: pointer; }
+.sub_quxiao1 { width: 108px; height: 36px; color: #999; text-align: center; line-height: 36px; font-size: 16px; float: left; margin-left: 20px; margin-top: 20px; cursor: pointer; }
+.sub_baocun1:hover { opacity: 0.8; }
+.sub_quxiao1:hover { color: #000; }
+.add_btn { width: 660px; border: 1px solid #ccc; height: 40px; text-align: center; background-color: #f9f9f9; color: #1f86dd; font-size: 16px; margin: 20px auto 30px; line-height: 40px; cursor: default; }
+    .add_btn:hover { background-color: #1f86dd; color: #fff; transition: .5s; }
+.app_3_t { width: 1040px; background: url(../images/fantawild2016/app_3_t.png) no-repeat left center; height: 40px; margin: 0 auto; padding-top: 16px; }
+.exp_work { width: 660px; margin: 20px auto 30px; }
+    .exp_work li { width: 100%; position: relative; margin-bottom: 20px; overflow: hidden; border-bottom: 1px dashed #ccc; padding-bottom: 5px; }
+    .exp_work span { display: block; float: left; width: 45%; font-size: 14px; margin-bottom: 5px; }
+.sub_kaishi1 { width: 150px !important; float: left; margin-left: 4px !important; }
+.sub_jieshu1 { width: 150px !important; float: left; }
+.sub_kaishi2 { width: 150px !important; float: left; margin-left: 4px !important; }
+.sub_jieshu2 { width: 150px !important; float: left; }
+.sub_baocun2 { width: 108px; height: 36px; color: #fff; background-color: #1f86dd; text-align: center; line-height: 36px; font-size: 16px; float: right; margin-right: 20px; margin-top: 20px; cursor: pointer; }
+.sub_quxiao2 { width: 108px; height: 36px; color: #999; text-align: center; line-height: 36px; font-size: 16px; float: left; margin-left: 10px; margin-top: 20px; cursor: pointer; }
+.sub_baocun3 { width: 108px; height: 36px; color: #fff; background-color: #1f86dd; text-align: center; line-height: 36px; font-size: 16px; float: right; margin-right: 20px; margin-top: 20px; cursor: pointer; }
+.sub_quxiao3 { width: 108px; height: 36px; color: #999; text-align: center; line-height: 36px; font-size: 16px; float: left; margin-left: 10px; margin-top: 20px; cursor: pointer; }
+.sub_baocun4 { width: 108px; height: 36px; color: #fff; background-color: #1f86dd; text-align: center; line-height: 36px; font-size: 16px; float: right; margin-right: 20px; margin-top: 20px; cursor: pointer; }
+.sub_quxiao4 { width: 108px; height: 36px; color: #999; text-align: center; line-height: 36px; font-size: 16px; float: left; margin-left: 10px; margin-top: 20px; cursor: pointer; }
+.sub_baocun5 { width: 108px; height: 36px; color: #fff; background-color: #1f86dd; text-align: center; line-height: 36px; font-size: 16px; float: right; margin-right: 20px; margin-top: 20px; cursor: pointer; }
+.sub_quxiao5 { width: 108px; height: 36px; color: #999; text-align: center; line-height: 36px; font-size: 16px; float: left; margin-left: 10px; margin-top: 20px; cursor: pointer; }
+.gangwei_link { width: 120px; background-color: #1e86dd; color: #fff; font-size: 14px; text-align: center; display: block; margin-left: 5px; height: 30px; line-height: 30px; }
+.rec_login_success { text-align: center; width: 100%; left: 0; font-size: 22px; top: 150px; position: absolute; color: #787878; }
+
+.sub_baocun2:hover { opacity: 0.8; }
+.sub_quxiao2:hover { color: #000; }
+.zhiyu { float: left; margin: 0 5px; height: 30px; line-height: 30px; }
+.sub_yuanyin { }
+.div_submit { width: 680px; margin: 50px auto 80px; overflow: hidden; }
+.btn_submit { border: 0; background-color: #ff961b; width: 125px; height: 50px; line-height: 50px; text-align: center; color: #fff; font-size: 16px; cursor: pointer; float: left; margin-left: 225px; }
+.btn_reset { border: 0; background-color: #fff; width: 125px; height: 50px; line-height: 50px; text-align: center; color: #666; font-size: 16px; cursor: pointer; margin-left: 10px; }
+.btn_submit:hover { opacity: 0.8; }
+.btn_reset:hover { color: #000; }
+
+/*完善个人招聘信息*/
+.div_sub_success { display: none; }
+.div_sub_fail { display: none; }
+.div_sub_notice { display: none; }
+.div_sub_notice2 { display: none; }
+.improve_t { width: 210px; margin: 0 auto; height: 55px; font-size: 24px; color: #1990db; background: url(../images/fantawild2016/improve_t.png) no-repeat left 40px; line-height: 55px; text-indent: 60px; padding-top: 35px; font-weight: bold; }
+.imporve_tt { width: 681px; height: 40px; padding-top: 35px; margin-bottom: 5px; position: relative; cursor: pointer; }
+.improve_jiajian { position: absolute; width: 17px; height: 17px; background: url(../images/fantawild2016/improve_ss.jpg) no-repeat; top: 43px; right: 0px; }
+.improve_ss .improve_jiajian { background: url(../images/fantawild2016/improve_zk.jpg) no-repeat !important; }
+.improve_num { width: 36px; height: 36px; text-align: center; line-height: 36px; font-size: 16px; background-color: #B9CFDC; border-radius: 50%; float: left; color: #fff; font-weight: bold; }
+.imporve_comp .improve_num { background-color: #FEA841; }
+.improve_none { display: none; }
+.field_1 { height: 10px; padding-left: 0; border: 0; border-top: 1px dashed #333; width: 597px; margin: 6px 0 0 50px; }
+    .field_1 legend { font-size: 16px; color: #333; background-color: #fff; border: 0; padding-right: 5px; }
+    .field_1 span { font-size: 12px; color: #666; }
+.improve_t10 { font-size: 14px; padding: 20px 0 0 20px; position: relative; overflow: hidden; }
+    .improve_t10 input[type="file"] { border: 1px solid #ccc; margin-right: 10px; background-color: #fff; }
+    .improve_t10 input[type="button"] { border: 1px solid #ccc; background-color: #f5f5f5; height: 23px; width: 50px; color: #707070; }
+.imp10_img1 { display: none; width: 84px; text-align: center; color: #707070; float: left; margin-right: 20px; }
+    .imp10_img1 img { margin-bottom: 5px; }
+    .imp10_img1 span { display: block; width: 100%; word-wrap: break-word; }
+.imp10_img2 { display: none; width: 84px; text-align: center; color: #707070; float: left; }
+    .imp10_img2 img { margin-bottom: 5px; }
+    .imp10_img2 span { display: block; width: 100%; word-wrap: break-word; }
+
+.improve_2 { width: 680px; margin: 0 auto; }
+.imp2_td1 { width: 134px; text-align: right; }
+.imp_edu { width: 660px; margin: 20px auto 30px; }
+    .imp_edu li { width: 100%; position: relative; margin-bottom: 30px; overflow: hidden; border-bottom: 1px dashed #ccc; padding-bottom: 10px; }
+    .imp_edu span { display: block; float: left; width: 24%; font-size: 14px; }
+.guanxi { width: 640px; margin: 0 auto; font-size: 16px; }
+.neibu { display: none; }
+.sanjiliandong select { width: 65px; float: left; margin-left: 10px; font-size: 12px; text-indent: 0; border: 1px solid #ccc; }
+    .sanjiliandong select:nth-child(1) { margin-left: 2px !important; }
+.sub_confirm { position: absolute; display: block; width: 120px; height: 40px; line-height: 40px; text-align: center; color: #fff; background-color: #1890dc; font-size: 14px; border: 0; left: 280px; top: 55px; }
+.return_editor { position: absolute; display: none; width: 120px; height: 40px; line-height: 40px; text-align: center; color: #fff; font-size: 14px; border: 1px solid #ccc; left: 350px; top: 55px; background-color: #fff; color: #666; }
+.imp_buzhou { margin: 0 auto 30px; }
+.work_exprienced { display: none; }
+.sub_pdf, .sub_zip { width: 660px; height: 50px; position: relative; }
+    .sub_pdf input[type="file"] { opacity: 1 !important; filter: alpha(opacity=100) !important; width: 300px !important; height: 20px !important; top: 0 !important; font-size: 12px !important; right: 100px !important; }
+    .sub_pdf #uploadifive-file_upload_pdf { width: 600px !important; height: 50px !important; position: absolute !important; left: 0 !important; top: 0 !important; }
+#queue2 { display: none !important; }
+#queue3 { display: none !important; }
+.sub_zip input[type="file"] { opacity: 1 !important; filter: alpha(opacity=100) !important; width: 300px !important; height: 20px !important; top: 0 !important; font-size: 12px !important; right: 161px !important; }
+.sub_zip #uploadifive-file_upload_pdf { width: 600px !important; height: 50px !important; position: absolute !important; left: 0 !important; top: 0 !important; }
+.zz_pdf, .zz_zip { width: 150px; height: 20px; position: absolute; background-color: #fff; top: 1px; left: 255px; z-index: 99999; }
+.zz_pdf { width: 150px; height: 20px; position: absolute; background-color: #fff; top: 1px; left: 255px; z-index: 99999; }
+
+/*人在华强*/
+.bg_jionus2 { width: 100%; height: 580px; background: url(../images/fantawild2016/bg_jionus.jpg) no-repeat top center; position: relative; top:17px; }
+.m_jionus_1 { width: 1280px; margin: 0 auto; padding-top: 100px; }
+.m_jionus { width: 100%; height: auto; background: url(../images/fantawild2016/m_jionus.jpg) no-repeat center top; margin-top: -60px; }
+.jionus_menu { width: 310px; height: 360px; float: left; }
+    .jionus_menu a { display: block; width: 100%; height: 100%; }
+.j_menu_div { width: 310px; text-indent: 10px; color: #fff; font-size: 22px; margin-bottom: 3px; }
+    .j_menu_div a { display: block; width: 256px; height: 55px; background-color: #1990db; line-height: 55px; }
+    .j_menu_div:hover a { background-color: #ffbc1c; transition: all .3s linear; -webkit-transition: all .3s linear; -o-transition: all .3s linear; -moz-transition: all .3s linear; }
+.j_menu_cur { background: url(../images/fantawild2016/j_menu_arrow.png) no-repeat 270px center !important; font-size: 24px; }
+    .j_menu_cur a { width: 270px !important; background-color: #ffbc1c !important; height: 75px !important; line-height: 75px !important; }
+.j_menu_div2 { width: 256px; font-size: 25px; background-color: #f5f8fd; overflow: hidden; height: 0; }
+    .j_menu_div2 a { display: block; width: 236px; height: 50px; line-height: 50px; color: #707070; text-align: right; padding-right: 20px; transition: all .3s linear; }
+        .j_menu_div2 a:hover { color: #1990db; }
+    .j_menu_div2 em { display: block; width: 20px; border-radius: 50%; height: 20px; background: url(../images/fantawild2016/common-icons.png) 0 -103px no-repeat; margin: 15px 0 0 106px; float: left; transition: 0.3s; -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s; }
+    .j_menu_div2 a:hover em { background-position: 0 -80px; }
+.j_menu_div2_cur { color: #1990db !important; }
+    .j_menu_div2_cur em { background-position: 0 -80px !important; }
+.jionus_right { width: 950px; min-height: 660px; float: left; }
+    .jionus_right h1 { color: #fd871f; font-size: 32px; height: 55px; line-height: 45px; background: url(../images/fantawild2016/h1line.jpg) no-repeat bottom left; }
+.dpment_list { width: 950px; margin-top: 75px; }
+    .dpment_list li { width: 950px; height: 165px; margin-bottom: 40px; position: relative; }
+.dpment_list_date { width: 104px; height: 145px; background-color: #1990db; text-align: center; padding-top: 20px; position: relative; color: #1990db; }
+    .dpment_list_date h2 { font-size: 40px; background-color: #fff; width: 68px; height: 68px; border-radius: 50%; margin: 0 auto; line-height: 68px; font-weight: normal; }
+    .dpment_list_date span { display: block; position: absolute; width: 104px; height: 60px; line-height: 60px; font-size: 24px; background-color: #fafafa; bottom: 0; left: 0; }
+.dpment_list_img { width: 268px; height: 165px; position: absolute; left: 114px; top: 0; overflow: hidden; }
+    .dpment_list_img img { width: 268px; }
+.dpment_list_con { width: 516px; height: 125px; position: absolute; right: 0; top: 0; padding: 20px; }
+    .dpment_list_con h3 { font-size: 16px; font-weight: normal; border-bottom: 1px solid #bababa; height: 35px; line-height: 30px; overflow: hidden; width: 100%; }
+    .dpment_list_con span { width: 100%; overflow: hidden; display: block; height: 80px; font-size: 14px; margin-top: 10px; text-indent: 2em; color: #919191; }
+.dpment_list li:hover .dpment_list_con { background-color: #fafafa; }
+.dpment_list li:hover img { transform: scale(1.06); -webkit-transform: scale(1.06); -o-transform: scale(1.06); -moz-transform: scale(1.06); transition: all .5s linear; -webkit-transition: all .5s linear; -o-transition: all .5s linear; -moz-transition: all .5s linear; }
+
+.j_detail { margin: 50px 0 100px 0; width: 900px; min-height: 400px; }
+    .j_detail h2 { color: #1990db; width: 800px; margin: 0 auto; text-align: center; font-weight: normal; line-height: 35px; }
+.j_detail_meta { text-align: center; margin: 10px 0 30px 0; }
+.j_detail_con { text-indent: 2em; font-size: 16px; line-height: 30px; }
+    .j_detail_con p { text-indent: 0; padding: 0; margin: 10px 0; font-family: 'Microsoft YaHei' !important; font-size: 14px !important; }
+    .j_detail_con span { font-family: 'Microsoft YaHei' !important; font-size: 14px !important; }
+    .j_detail_con img { margin: 0 auto; }
+.max600 img { max-width: 600px; }
+
+.infantawild_t { margin-top: 40px; }
+/*人才理念*/
+.j_r_main { margin: 50px 0 100px 0; width: 900px; font-size: 16px; text-indent: 2em; line-height: 26px; color: #646464; }
+.join_title { background: url(../images/fantawild2016/join_title_bg.png) no-repeat left center; height: 40px; line-height: 40px; font-size: 20px; color: #fd871f; text-indent: 45px; margin-top: 20px; }
+.j_r_main p { margin: 0 0 10px 0; }
+
+/*网站地图*/
+.sitemap_1 { border: 1px solid #cce5fe; width: 1136px; margin: 50px auto 70px; padding: 20px 0; }
+    .sitemap_1 h1 { text-align: center; font-size: 28px; height: 50px; line-height: 50px; }
+    .sitemap_1 h2 { width: 100%; background: url(../images/fantawild2016/simtmap_ico.png) no-repeat 30px center #eff6fd; padding: 10px 0; margin: 20px 0 20px; }
+        .sitemap_1 h2 a { color: #0088cc; font-size: 16px; font-weight: bold; }
+    .sitemap_1 a { margin-left: 50px; font-size: 14px; }
+
+    
+/*招聘入口*/
+.for_s_main { width:1030px; margin:-30px auto 80px;height:430px;box-shadow:0 2px 2px #8d8d8d;position:relative;}
+.for_s_bg { position:absolute; width:100%; height:100%; background-color:#fff; opacity:0.6;top:0; left:0; z-index:1;}
+.for_s_link { width:220px; height:300px; border-radius:5px;position:absolute;top:60px;display:block;z-index:100;overflow:hidden;}
+.for_s_link img{position:absolute;top:224px;left:50%;margin-left:-33px;width:66px;z-index:200; transition:.5s;}
+.for_s_min {width:140px;height:150px;position:absolute;z-index:10;left:0;top:210px;padding:150px 40px 0 40px;color:#fff;font-size:14px;transition:.5s; }
+.for_s_min h3{ width:110px; height:40px; line-height:40px; text-align:center; border-radius:5px; border:1px solid #fff;font-size:14px;margin:30px auto 0;}
+.for_s_1 { left:95px;background:url(../images/fantawild2016/for_s_1_bg.png) no-repeat top center;}
+.for_s_2 { left:398px;background:url(../images/fantawild2016/for_s_2_bg.png) no-repeat top center;}
+.for_s_3 { left:700px;background:url(../images/fantawild2016/for_s_3_bg.png) no-repeat top center;}
+.for_s_1 .for_s_min { background-color:#44b6e5;}
+.for_s_2 .for_s_min { background-color:#42d23b;}
+.for_s_3 .for_s_min { background-color:#eda529;}
+.for_s_link:hover .for_s_min{top:0; }
+.for_s_link:hover img{top:40px; width:86px; margin-left:-43px; }
+
+/*校园招聘新页面*/
+.improve_re { width: 290px; margin: 0 auto; height: 55px; font-size: 24px; color: #1990db; background: url(../images/fantawild2016/improve_re.png) no-repeat left 40px; line-height: 55px; text-indent: 60px; padding-top: 35px; font-weight: bold; }
+.imp_main_re { width: 985px;background-color:#fff;  margin: 10px auto 70px; padding: 25px; }
+.imporve_ree {  height: 40px; padding-top: 35px; margin-bottom: 5px; position: relative; cursor: pointer; }
+.improve_none { display: none; }
+.field_re { height: 10px; padding-left: 0; border: 0; border-top: 1px dashed #333;  margin: 6px 0 0 50px; }
+    .field_re legend { font-size: 16px; color: #333; background-color: #fff; border: 0; padding-right: 5px; }
+    .field_re span { font-size: 12px; color: #666; }
+.imp_re_table1 { width:720px; float:left;margin-top:10px;}
+    .imp_re_table1 td { padding:20px 0;}
+.imp_re_table1 input[type="text"] { width: 250px; }
+.imp_re_table1 select { width: 250px; }
+
+/*.upload_img_re {width: 120px;height: 160px;cursor: pointer; float:left;padding:7px; border:1px solid #b9b9b9;color:#fff;margin-left:90px; }
+.upload_img_re  span{ display:block; width:120px; height:105px; background-color:#ccc;text-align:center;font-size:14px;padding-top:55px; }*/
+
+.upload_img_re {width: 120px; height: 160px;cursor: pointer; float:left;padding:7px;color:#fff;margin-left:90px; }
+.upload_img_re1 { width:121px; height:164px; }
+
+.imp_re_table2 { width:960px; margin:0 auto;}
+    .imp_re_table2 b { left:82px;}
+.sjldong select {width: 111px;float: left;margin-left: 10px;font-size: 12px;text-indent: 0;border: 1px solid #ccc;}
+.sjldong select:nth-child(1) {margin-left: 5px;}
+.imporve_reee .exp_work{ width:960px;}
+.imporve_reee .add_btn { width:960px;}
+.imporve_reee .add_edu { width:960px;}
+.imporve_reee .exp_work li { border:0;}
+.imporve_ree10 input { display:inline;}
+.imporve_ree10 table{width:960px; }
+.imporve_ree10 td{padding:10px 0;}

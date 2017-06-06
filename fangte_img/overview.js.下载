@@ -1,0 +1,207 @@
+﻿$(function () {
+    //鼠标滚动出现
+    var windowHeight = $(window).height();
+    var o1Top = $('.overview_1').offset().top;
+    var o2Top = $('.overview_2').offset().top;
+    var o3Top = $('.overview_3').offset().top;
+    var o4Top = $('.overview_4').offset().top;
+    var o5Top = $('.overview_5').offset().top;
+    var o6Top = $('.overview_6').offset().top;
+    var o7Top = $('.overview_7').offset().top;
+    //if ($('.o_1').css("left") == "0px") {
+    //    $(".o_1").animate({
+    //        left: 75,
+    //        opacity: 1,
+    //    }, 500, function () {
+    //        $(".o_2").animate({
+    //            left: 260,
+    //            opacity: 1,
+    //        }, 500, function () {
+    //            $(".o1_t").animate({
+    //                top: 50,
+    //                opacity: 1
+    //            }, 500);
+    //            $(".o1_c").animate({
+    //                top: 160,
+    //                opacity: 1
+    //            }, 500);
+    //        });
+    //    });
+    //}
+    //if ($('.o2_t').css("left") == "50px") {
+    //    $(".o2_t").animate({
+    //        left: 106,
+    //        opacity: 1,
+    //    }, 500, function () {
+    //        $(".o2_c").animate({
+    //            left: 106,
+    //            opacity: 1,
+    //        }, 500, function () {
+    //            $(".o2_img2").addClass('o2_img2z').animate({
+    //                opacity: 1,
+    //            }, 1000);
+    //        });
+    //    });
+    //}
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > o1Top - windowHeight / 2 -400 ) {
+            
+        }
+
+        if ($(window).scrollTop() > o2Top - windowHeight / 2 -300 ) {
+            
+        }
+
+        if ($(window).scrollTop() > o3Top - windowHeight / 2 - 300) {
+            if ($('.o3img3').css("opacity") == "0") {
+                $('.o3img3').animate({
+                    opacity: 1,
+                }, 500, function () {
+                    $('.o3img1').animate({
+                        opacity: 1,
+                    }, 500, function () {
+                        $('.o3img2').animate({
+                            opacity: 1,
+                        }, 500);
+                    });
+                    $('.o3img4').animate({
+                        opacity: 1,
+                    }, 500);
+                    $('.o3weixin').animate({
+                        opacity: 1,
+                    }, 500, function () {
+                        $('.o3img5').animate({
+                            opacity: 1,
+                        }, 500, function () {
+                            $('.o3logo').animate({
+                                width: 260,
+                                opacity:1,
+                            }, 500, function () {
+                                $('.overview_3 p').animate({
+                                    bottom: 60,
+                                    opacity:1
+                                },500);
+                            })
+                        });
+                    });
+                });
+            }
+        }
+
+
+        if ($(window).scrollTop() > o4Top - windowHeight / 2 - 300) {
+            if ($('.o4i1').css("top") == "-50px") {
+                $('.o4i1').animate({
+                    top: 280,
+                    opacity: 1,
+                }, 500, function () {
+                    $('.o4i1').animate({
+                        top: 200,
+                    }, 500);
+                });
+                $('.o4i2').animate({
+                    top: 300,
+                    opacity: 1,
+                }, 600, function () {
+                    $('.o4i2').animate({
+                        top: 260,
+                    }, 600);
+                });
+                $('.o4i3').animate({
+                    top: 320,
+                    opacity: 1,
+                }, 700, function () {
+                    $('.o4i3').animate({
+                        top: 200,
+                    }, 700);
+                });
+                $('.o4i4').animate({
+                    top: 340,
+                    opacity: 1,
+                }, 800, function () {
+                    $('.o4i4').animate({
+                        top: 260,
+                    }, 800);
+                });
+                $('.o4i5').animate({
+                    top: 360,
+                    opacity: 1,
+                }, 900, function () {
+                    $('.o4i5').animate({
+                        top: 200,
+                    }, 900, function () {
+                        $('.o4_img').addClass('o4transition');
+                    });
+                });
+            }
+        }
+
+        if ($(window).scrollTop() > o5Top - windowHeight / 2 +100) {
+            if ($('.o5img1zz').css("opacity") == "1") {
+                $(".o5img3").animate({
+                    left: 10,
+                    opacity: 1,
+                }, 400);
+
+                //$(".o5img1zz").animate({
+                //    opacity: 0
+                //}, 100);
+                //$(".o5img1zz").animate({
+                //    opacity: 1
+                //}, 200);
+                //$(".o5img1zz").animate({
+                //    opacity: 0
+                //}, 100);
+                //$(".o5img1zz").animate({
+                //    opacity:1
+                //},100);
+                //$(".o5img1zz").animate({
+                //    opacity: 0,
+                //}, 500, function () {
+                //    $(".o5img2zz").animate({
+                //        opacity: 0,
+                //    }, 400, function () {
+                //        $(".o5img3").animate({
+                //            left: 10,
+                //            opacity:1,
+                //        }, 400);
+                //    });
+                //});
+            }
+        }
+
+        if ($(window).scrollTop() > o6Top - windowHeight / 2 -100) {
+            if ($('.o6img1').css("opacity") == "0") {
+                $(".o6img1").animate({
+                    opacity: 1,
+                }, 500, function () {
+                    $(".o6_t").animate({
+                        right: 155,
+                        opacity:1,
+                    }, 500, function () {
+                        $(".overview_6 p").animate({
+                            right: 20,
+                            opacity: 1,
+                        }, 500);
+                    });
+                });
+            }
+        }
+
+        if ($(window).scrollTop() > o7Top - windowHeight / 2 - 100) {
+            if ($('.o7_t').css("opacity") == "0") {
+                $(".o7_t").animate({
+                    opacity: 1,
+                    left:35,
+                }, 500, function () {
+                    $(".overview_7 p").animate({
+                        top: 250,
+                        opacity: 1,
+                    }, 500);
+                });
+            }
+        }
+    });
+})
+
+

@@ -1,0 +1,79 @@
+﻿$(function () {
+    //菜单效果
+    var navLi = $("#nav-div>ul>li"),
+   navUl = $("#nav-div>ul"),
+   speed = 400;
+    function OnClick() {
+        n = navUl.find("li.on").index();
+        navUl.stop().animate({ backgroundPosition: navLi.width() * n }, speed);
+    }
+    OnClick();
+    navLi.hover(
+      function () {
+          n = $(this).index();
+          navUl.stop().animate({ backgroundPosition: navLi.width() * n }, speed, function () {
+              $('.ulxiala').hide();
+              $("#nav-div>ul>li:eq(" + n + ")").find(".ulxiala").show();
+          });
+      },
+      function () {
+          OnClick();
+      })
+    navLi.click(function () {
+        $(this).addClass("on").siblings().removeClass("on");
+    });
+
+    //顶菜单选择
+    //var url1;
+    //var tmpurl2;
+    //var thisurl2;
+
+    //url1 = document.URL;
+    //tmpurl2 = url1.split("/");
+    //thisurl2 = tmpurl2[tmpurl2.length - 1];
+    //tmpurl3 = thisurl2.split(".");
+    //thisurl3 = tmpurl3[tmpurl3.length - 2];
+    //if (!thisurl3 && thisurl2!='') {
+    //    thisurl3 = thisurl2;
+    //    //alert(thisurl3 + '-t');
+    //}
+    //if (thisurl3 == null) thisurl3 = 'index';
+    //$('.' + thisurl3 + '-t').addClass('on').siblings().removeClass("on");
+
+    var urlstr = location.href;
+    var urlstatus = false;
+    $(".menu_li a").each(function () {    
+        var a_link = $(this).attr('href').split("/");  //获取a链接上的href值
+        var re_link = a_link[a_link.length - 1];          //处理字符串../a.html形式为a.html形式
+        if ((urlstr).indexOf(re_link) > -1 && re_link != '') {
+            $(this).parents('.menu_li').addClass('on');
+            urlstatus = true;
+        } else {
+            urlstatus = false;
+        }
+    });
+    if (!urlstatus) { $(".menu_li").eq(0).addClass('on'); }
+
+    n = navUl.find("li.on").index();
+    navUl.stop().animate({ backgroundPosition: navLi.width() * n }, speed);
+
+
+    $(".navul li").mouseover(function () {
+        $(this).find("ul").show();
+    });
+    $(".navul li").mouseout(function () {
+        $(".ulxiala").stop().hide();
+    });
+
+    $('.return_top').click(function () {
+        $('body,html').animate({ scrollTop: 0 }, 1000);
+    })
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 750) {
+            $('.return_top').fadeIn(500);
+        }
+        else
+            $('.return_top').fadeOut(500);
+    })
+})
